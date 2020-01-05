@@ -1,16 +1,16 @@
 title: Andrei Epure
 author: andreiepure
-description: > # this means to ignore newlines until "baseurl:"
-  Andrei Epure, Software Engineer.
-
-header_pages:
-  - about.md
+tagline: Andrei Epure, Software Engineer.
+description: Personal website of Andrei Epure, a passionate Software Engineer who is building tools to make developers write better, safer code.
+url: andreiepure.ro
 
 # social links
 twitter_username: andrei_cs_pub
-github_username:  andreiepure
-github_username:  andrei-epure-sonarsource
 
+# the below is for blog posts
 show_excerpts: true # set to false to remove excerpts on the homepage
+
+header_pages:
+ - about.md
 
 theme: minima
