@@ -14,3 +14,7 @@ header_pages:
  - about.md
 
 theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
