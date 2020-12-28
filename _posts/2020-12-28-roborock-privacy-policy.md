@@ -14,9 +14,11 @@ My problem is that they didn't mention anonymity here... Basically, they collect
 
 > "If you are a European Union user under the GDPR, your personal information will be stored on the server in Germany." ✌️ 
 
+Another advantage of the EU.
+
 > "Our Privacy Policy does not apply to products or services offered by any third party. [...] we strongly recommend that you read the third party's privacy policy, just as you have taken time to read ours."
 
-Initially after reading this, I had the impression they were breaching GDPR, because they didn't mention which 3rd party providers they use. So I sent an email to dpo _at_ roborock _dot_ com and asked them to clarify. They replied withing 12 hours, mentioning:
+Initially after reading this, I had the impression they were breaching GDPR, because they didn't mention which 3rd party providers they use. So I sent an email to dpo _at_ roborock _dot_ com and asked them to clarify. They replied within 12 hours, mentioning:
 
 > "[...] the third party mentioned in the privacy policy refers to the services provided by other companies that can be used in Roborock app, such as Amazon's Alexa speakers. Because when you choose the service provided by a third party, you will learn about its data processing through the app, and the data will only be transmitted to the third party after you explicitly agree. Third-party services do not belong to the basic services provided by the app, and the supported services may increase with the upgrade of functions. Therefore, the privacy policy does not disclose the list of all third-party services supported. However, you can learn about the specific situation of the third party through the pop-up prompt in the app before using the related service."
 
