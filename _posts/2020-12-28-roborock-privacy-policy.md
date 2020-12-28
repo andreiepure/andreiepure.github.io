@@ -2,8 +2,6 @@
 title:  "Roborock privacy policy"
 ---
 
-# The robot
-
 My wife and I decided to buy a robot vacuum cleaner to improve the comfort of our home. After asking my work colleagues on one of our informal slack channels about their experience, we've spend a couple of hours reading reviews on digitec.ch of Roomba and Roborock vacuum cleaners. The Roborock S5 Max had lots of positive reviews and an entry-level price, so we ordered one. We've unpacked it on the 27th of December, and after setting it up, I had to install the Roborock Android app on my phone.
 
 # The Privacy Policy
