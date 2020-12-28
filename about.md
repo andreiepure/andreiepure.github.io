@@ -1,12 +1,12 @@
-First of all, I am a human person, which is quite a lot in itself.
+I am a software developer in the Languages Team at [SonarSource](https://www.sonarsource.com/). We create [SonarQube](https://www.sonarqube.org/), [SonarCloud](http://sonarcloud.io/) and [SonarLint](https://www.sonarlint.org/)), tools which millions of developers and tens of thousands of organizations use to deliver better, more secure software. Previously, I wrote software at Microsoft Ireland, empowering customers to buy and manage their Office 365 subscriptions.
 
-In addition to being a Software Engineer, I am also a:
-- [Romanian](https://en.wikipedia.org/wiki/Romania), proud alumni of the [Politehnica University of Bucharest](https://upb.ro/en/) and ["Vasile Alecsandri" College in Galati](https://cnva.eu/)
-- husband, son, brother, godson, godfather and friend
-- [Orthodox Christian](https://en.wikipedia.org/wiki/Eastern_Orthodox_Church), volunteer in [my local parish](http://biserica.ch/) and in [Nepsis CH](http://ch.nepsis.org/)
-- proud member of the Languages Team at [sonarsource](https://sonarsource.com/), building the ultimate automatic code review tools
-- [Microsoft](https://www.microsoft.com) alumni. I worked for 3 years in the Office Membership Experience (OMEX) team in Dublin, where I built software to enable users to try, buy and manage Office 365 subscriptions.
+Work-related, you can check my profile on:
+- [LinkedIn](https://www.linkedin.com/in/epureandrei/)
+- [StackOverflow](https://stackoverflow.com/users/2261315/andrei-epure)
+- [Github](https://github.com/andrei-epure-sonarsource)
+- [SonarSource community](https://community.sonarsource.com/u/Andrei_Epure/summary)
 
-On a personal level, I am interested in understanding the visible (science, history) and the invisible (spirit).
-
-I speak [Romanian](https://en.wikipedia.org/wiki/Romanian_language) (a Romance language with lots of influences from other languages), English and French.
+In addition to being a programmer, I am also:
+- an [Orthodox Christian](https://en.wikipedia.org/wiki/Eastern_Orthodox_Church)
+- a [Romanian](https://en.wikipedia.org/wiki/Romania) expat living in Switzerland
+- proud alumni of the [Politehnica University of Bucharest](https://upb.ro/en/) and the ["Vasile Alecsandri" College in Galati](https://cnva.eu/)
