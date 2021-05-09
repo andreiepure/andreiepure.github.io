@@ -1,6 +1,4 @@
 title: Andrei Epure
-author: andreiepure
-tagline: Web log.
 description: Andrei Epure's web log.
 url: andreiepure.ro
 
@@ -8,10 +6,7 @@ url: andreiepure.ro
 twitter_username: andrei_cs_pub
 
 # the below is for blog posts
-show_excerpts: true # set to false to remove excerpts on the homepage
-
-header_pages:
- - about.md
+show_excerpts: false # set to false to remove excerpts on the homepage
 
 theme: minima
 
