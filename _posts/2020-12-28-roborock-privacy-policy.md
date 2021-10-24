@@ -35,3 +35,7 @@ Obviously, I accepted all of this because I want to use my little robot 🤓🤖
 # The robot experience
 
 As I write this article, we have used the robot twice: first to create a map while vacuuming our home, and the second day just vacuuming. For 34 square metres, it first took 40 minutes (while creating the map) and the second time it took 30 minutes. We can watch the cleaning history in the app, what trajectory the robot took in each session. All in all, it was really easy to setup. The robot is pretty smart, gentle on the furniture when bumping into it and quite organized when moving in the home.
+
+# Later update (2021-10-24)
+
+This blog post does not suggest that your privacy is respected by Roborock. I do not know how my data is being used. Also, it is worth pondering whether these gimmicks are truly necessary or not (because [Want is the Acid](https://paulkingsnorth.substack.com/p/want-is-the-acid) consuming our planet). I haven't used my Roborock in the past 4 months and I don't necessarily miss it.
