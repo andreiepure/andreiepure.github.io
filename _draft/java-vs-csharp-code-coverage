@@ -1,0 +1,17 @@
+Summary: ccov for Java is more mature than for C#.
+
+TL;DR:
+C#
+- MS VS ccov - supports branch coverage partially; you only know it's partially covered, don't know how much
+- dotCover - no branch coverage
+- ncover - no branch coverage, in maintenance mode
+- ncrunch, ndepend - must see
+- opencover - good branch coverage; it reached EOL , archived project
+- altcover - needs investigation
+
+Java
+- JaCoCo - it just works
+
+
+
+Summary of tools and opencover: https://www.apriorit.com/dev-blog/697-qa-measuring-code-coverage
