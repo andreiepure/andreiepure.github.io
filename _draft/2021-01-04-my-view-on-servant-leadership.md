@@ -16,6 +16,10 @@ The role of a servant leader is to serve his/her fellow mates, ensuring they gro
 
 I want my team mates to be leaders. To grow. To be better than me. I applied this at the level of the .NET Bubble and I have the joy of working in an autonomous team which works very well without a lead. We are currently 5 developers (and we want more colleagues) closely working with a Product Manager.
 
-We are doing this in the LT also at higher level. The LT currently is made of 40 developers divided into 7 Bubbles and is led by a Council formed of 5 developers and the VP of Product Delivery. The overall organisation of the team evolved over time and will likely evolve in the future.
+We are doing this in the LT also at higher level. The LT currently is made of 43 developers divided into 7 Bubbles and is led by a Council formed of 5 developers and the VP of Product Delivery (representing and liaising with the Management Team of Sonar). 
 
-The purpose of the Council is not to tell people what to do, rather it's making sure the team is aligned with the strategy of the company and the team objectives, that bubbles and people can grow, that we manage to hire more people, and also ensure cross-team collaboration is happening with the other engineering teams. The Council as a whole works as a leader. The members of the Council work as normal developers in their bubbles.
+The purpose of the Council is not to tell people what to do, rather it's making sure the team is aligned with the strategy of the company and the team objectives, that bubbles and people can grow, that we manage to hire more people, and also ensure cross-team collaboration is happening with the other engineering teams. The Council as a whole works as a leader. The members of the Council also work as normal (albeit part-time) developers in their bubbles.
+
+Doing project management is a responsibility of each bubble, as well as setting its own objectives, keeping in mind the company objectives.
+
+The overall organisation of the team evolved over time and will likely evolve in the future.
