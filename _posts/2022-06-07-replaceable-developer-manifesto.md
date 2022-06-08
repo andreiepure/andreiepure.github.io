@@ -32,3 +32,7 @@ Thus a replaceable developer brings high value to any team and company. If a “
 I am aware that agile methodologies are supposed to ensure by design that _“nobody on the team is indispensable.”_ And the desire to be replaceable fits very well within the agile mindset. However, replaceability is more than applying a methodology; it is a working principle.
 
 Becoming a replaceable developer takes time, effort, perseverance, and a healthy work environment. And I believe it is worth it!
+
+<hr>
+
+_Thanks to Liviu, Ghennadi, and Paul for reading drafts of this._
