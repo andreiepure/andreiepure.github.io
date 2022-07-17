@@ -25,7 +25,7 @@ And from an individual contributor's point of view, a replaceable developer:
   <li>writes minimal, essential documentation when needed</li>
 </ol>
 
-The above is necessary for any sane developer, for their own sake, not only their team’s. 
+Points a-c are necessary for any sane developer, for their own sake, not only their team’s.
 
 Thus a replaceable developer brings high value to any team and company. If a “replaceable developer” is sick, takes a sabbatical, or leaves the company, there would be no delivery problem for the team. Consequently, everyone should want and keep “replaceable developers” in their group.
 
