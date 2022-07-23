@@ -57,20 +57,67 @@ Initial draft for the talk structure:
 
 ## Preparation
 
+### NuGet 101
+
+https://aka.ms/Nuget101
+
+nice intro info from video 1/5
+
+Simple definitions
+- .NET dev platform = languages + libraries
+- Package = compiled libraries + descriptive metadata
+- NuGet = the system to manage libraries in the ecosystem
+
+NuGet.org 
+- numbers of packages
+- Package - shows if it is verified
+
 ### Microsoft docs
+
+GH docs: https://github.com/NuGet/docs.microsoft.com-nuget
+Version: commit 53f580b29
 
 #### General
 
 1. https://docs.microsoft.com/en-us/nuget/what-is-nuget
 
 What I can use:  
-- not much (don't care about package targeting; nuget tools)
-- the image in "The flow of packages between creators, hosts, and consumers" as a reminder of how it works and that there can be private hosts
-- the image in "Managing dependencies" can help as a reminder of the complexity of dependency management; also, the mention that a package can appear multiple times with multiple versions is worthwhile;
+- // Overall, not much (don't care about package targeting; nuget tools)
+- "The flow of packages between creators, hosts, and consumers" - the image can serve as a reminder of how it works and that there can be private hosts
+- "Managing dependencies" 
+  - the image can help as a reminder of the complexity of dependency management
+  - also, the mention that a package can appear multiple times with multiple versions is worthwhile
+- "Tracking references and restoring packages" - probably I won't talk about _package management formats_ (PackageReference vs packages.config) because of lack of time
+- "What else does NuGet do?"
+  - _"To avoid bringing multiple versions of that package into the application itself, NuGet sorts out which single version can be used by all consumers."_
+  - mentions "version ranges" -
+
 
 #### Concepts
 
 2. Package installation process https://docs.microsoft.com/en-us/nuget/concepts/package-installation-process
+
+The steps that happen during resolution:
+  - verify in the local cache (global-packages folder)
+  - if not, download it from the sources specified in the configuration files. Package Source Mapping (NuGet 6+) get applied here.
+  - the order of sources:
+    - FIRST: local folders and network drives.
+    - SECOND: HTTP online sources. 
+  - for HTTP online sources, attempt to use the HTTP cache (expiring in 30 minutes).
+    - If hit, CACHE appears in the log.
+    - if the package is specified using a floating version, _ALL_ sources are contacted to figure out the best match.
+    - if the HTTP cache is not hit, NuGet attempts to download from all the sources listed in the config. "GET" and "OK" appear in the output.
+    - if the package is not acquired successfully, NU1103 (with the last checked source, even if all sources have been checked).
+
+After downloading the package:
+- save the package in the hhtp-cache
+- install in the per-user global-packages folder - a subfolder for each package identifier, then subfolders for each installed version of the package
+- then NuGet installs package dependencies as required. It might update package versions in the process.
+
+Update project files and folders:
+- for PackageReference, updates the dependency graph stored in obj/project.assets.json
+- Update app.config and/or web.config if the package uses source and config file transformations (see _Transforming source code and configuration files_ below)
+
 
 3. Package versioning https://docs.microsoft.com/en-us/nuget/concepts/package-versioning
 
@@ -88,12 +135,43 @@ What I can use:
 
 - see best practices here as well
 
+##### [Transforming source code and configuration files](https://docs.microsoft.com/en-us/nuget/create-packages/source-and-config-file-transformations) 
+
+Specifying config file transformations
+- Include `app.config.transform` and `web.config.transform` files in your package's content folder, where the `.transform` extension tells NuGet that these files contain the XML to merge with existing config files when the package is installed. When a package is uninstalled, that same XML is removed.
+- Include `app.config.install.xdt` and `web.config.install.xdt` files in your package's content folder, using XDT syntax to describe the desired changes. With this option you can also include a `.uninstall.xdt` file to reverse changes when the package is removed from a project.
+
+XML transforms
+- As a more extensive example, the [Error Logging Modules and Handlers for ASP.NET (ELMAH)](https://www.nuget.org/packages/elmah/) package adds many entries into web.config, which are again removed when a package is uninstalled.
+  - To examine its web.config.transform file, download the ELMAH package from the link above, change the package extension from .nupkg to .zip, and then open content\web.config.transform in that ZIP file.
+
+XDT transforms
+- to make XDT transforms work withPackageReference, refer to [this sample](https://github.com/NuGet/Samples/tree/main/XDTransformExample)
+- You can modify config files using XDT syntax. You can also have NuGet replace tokens with project properties by including the property name within $ delimiters (case-insensitive).
+
+
+#### Publish packages
+
+##### Publish to a private feed
+
+Create your own NuGet.Server: https://docs.microsoft.com/en-us/nuget/hosting-packages/nuget-server
+
 #### References
 
-##### NuGet Server API
+##### NuGet Server API 
+
+https://docs.microsoft.com/en-us/nuget/api/overview
+
+(idea : if rate limit is met on private server, then the public server will get priority)
 
 #### Resources
 
 ##### Release notes
 
 - track the vulnerabilities throughout versions, create a small history of this
+
+### Contributor blog post
+
+https://dev.to/loicsharma/the-nuget-protocol-4m8h
+
+Short overview of the protocol. Doesn't seem to bring useful info for the talk...
