@@ -173,13 +173,35 @@ Normalized version numbers
 
 4. Dependency resolution https://docs.microsoft.com/en-us/nuget/concepts/dependency-resolution
 
+Dependency graph (all direct and transitive deps)
+
+> When multiple packages have the same dependency, then the same package ID can appear in the graph multiple times, potentially with different version constraints. **However, only one version of a given package can be used in a project**, so NuGet must choose which version is used. The exact process depends on the package management format being used.
+
+Dependency resolution rules
+
+- Four main rules to resolve dependencies: 
+  - lowest applicable version (for strict version and Version ranges)
+  - floating versions : highest version that matches the version pattern
+  - nearest-wins : the version that is closest to the application wins (i.e. child version wins over grand-child version)
+    - This behavior allows an application to override any particular package version in the dependency graph.
+    - The Nearest Wins rule can result in a downgrade of the package version, thus potentially breaking other dependencies in the graph. Hence this rule is applied with a warning to alert the user.
+    - This is also an optimization when dealing with the dependency graph (because lower node transitive sub-graphs are cut)
+  - and cousin dependencies
+    - if there are two different versions on the same level in the graph, the **lowest version** that satisfies all version requirements is used 
+- If there's a conflict between transitive dependencies versions, the top-level consumer should explicitly specify a version that will win ("nearest-wins").
+
+Managing dependency assets
+- When using the PackageReference format, you can control which assets from dependencies flow into the top-level project.
+
+
 5. Best practices (🍞+🧈) https://docs.microsoft.com/en-us/nuget/concepts/security-best-practices
 
 6. .props and .targets in a package (🐱‍👤) https://docs.microsoft.com/en-us/nuget/concepts/msbuild-props-and-targets
 
 #### Consume packages
 
-7. 
+FIXME lock file
+
 
 #### Create packages
 
