@@ -196,6 +196,29 @@ Managing dependency assets
 
 5. Best practices (🍞+🧈) https://docs.microsoft.com/en-us/nuget/concepts/security-best-practices
 
+In general, the intro of the article is very good. Some good phrases to use:
+
+> Being able to leverage the work of thousands of open-source developers and library authors means that thousands of strangers can effectively contribute directly to your production code. Your product, through your software supply chain, is affected by unpatched vulnerabilities, innocent mistakes, or even malicious attacks against dependencies.
+
+Definition of supply chain - I have a better slide for that from my BBL.
+
+Vulnerabilities can occur either in direct or transitive dependencies.
+- _thousands of strangers can effectively contribute directly to your production code._
+
+
+##### Supply chain compromises
+
+There are many methods to attack a supply chain:
+- from directly inserting malicious code as a new contributor
+- to taking over a contributor’s account without others noticing
+- even compromising a signing key to distribute software that is not officially part of the dependency`
+
+> A software supply chain attack is in and of itself rarely the end goal, rather it is the beginning of an opportunity for an attacker to insert malware or provide a backdoor for future access.
+
+And the image.
+
+
+
 6. .props and .targets in a package (🐱‍👤) https://docs.microsoft.com/en-us/nuget/concepts/msbuild-props-and-targets
 
 #### Consume packages
