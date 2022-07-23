@@ -121,6 +121,56 @@ Update project files and folders:
 
 3. Package versioning https://docs.microsoft.com/en-us/nuget/concepts/package-versioning
 
+Version basics
+- Major.Minor.Patch[-Suffix]
+
+Pre-release versions
+- any string as a suffix to denote a pre-release version (NuGet treats as string)
+- convention: `-alpha` (WIP), `-beta` (can have bugs), `-rc` (stable)
+
+Version ranges
+- 1.0 - **minimum** version, inclusive (thus if patch version is missing, it's a version rage)
+- (1.0,) - min version, exclusive
+- [1.0] - exact version match
+- (,1.0] - max version, inclusive
+- (,1.0) - max version, exclusive
+- [1.0,2.0] - exact range, inclusive
+- (1.0,2.0) - exact range, exclusive
+- [1.0,2.0) - mixed inclusiv minimum and exclusive maximum
+
+> **!!** Version ranges in PackageReference **include pre-release versions.**
+
+PackageReference floating version
+- floating notation, `*`, for Major, Minor, Patch, and pre-release suffix parts of the number. 
+
+> By design, floating versions do not resolve prerelease versions unless opted into.
+
+> When resolving package references and multiple package versions differ **only by suffix**, NuGet chooses **a version without a suffix first**, then applies precedence to pre-release versions in **reverse alphabetical order**.
+
+Examples
+
+> Without a version or version range, NuGet 2.8.x and earlier chooses the latest available package version when resolving a dependency, whereas NuGet 3.x and later chooses the lowest package version. Specifying a version or version range avoids this uncertainty.
+
+In [these examples](https://docs.microsoft.com/en-us/nuget/concepts/package-versioning#references-in-project-files-packagereference)
+- Version="6.1" - Will resolve to the smallest acceptable stable version
+- Version="6.*" - highest stable
+
+Floating version resolutions
+- `1.1.*-*` needs to be used to accept the highest, including pre-release
+
+> Floating version resolution does not take into account whether or not a package is listed. Floating version resolution will be resolved locally if the conditions can be satisfied with packages in the Global Package Folder.
+
+Normalized version numbers
+- Leading zeroes are removed from version numbers
+  - 1.00 is treated as 1.0
+  - 1.01.1 is treated as 1.1.1
+  - 1.00.0.1 is treated as 1.0.0.1
+- A zero in the fourth part of the version number will be omitted
+  - 1.0.0.0 is treated as 1.0.0
+  - 1.0.01.0 is treated as 1.0.1
+- SemVer 2.0.0 build metadata is removed
+  - 1.0.7+r3456 is treated as 1.0.7
+
 4. Dependency resolution https://docs.microsoft.com/en-us/nuget/concepts/dependency-resolution
 
 5. Best practices (🍞+🧈) https://docs.microsoft.com/en-us/nuget/concepts/security-best-practices
