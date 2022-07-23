@@ -59,6 +59,41 @@ Initial draft for the talk structure:
 
 ### Microsoft docs
 
+#### General
+
 1. https://docs.microsoft.com/en-us/nuget/what-is-nuget
 
-Summary: 
+What I can use:  
+- not much (don't care about package targeting; nuget tools)
+- the image in "The flow of packages between creators, hosts, and consumers" as a reminder of how it works and that there can be private hosts
+- the image in "Managing dependencies" can help as a reminder of the complexity of dependency management; also, the mention that a package can appear multiple times with multiple versions is worthwhile;
+
+#### Concepts
+
+2. Package installation process https://docs.microsoft.com/en-us/nuget/concepts/package-installation-process
+
+3. Package versioning https://docs.microsoft.com/en-us/nuget/concepts/package-versioning
+
+4. Dependency resolution https://docs.microsoft.com/en-us/nuget/concepts/dependency-resolution
+
+5. Best practices (🍞+🧈) https://docs.microsoft.com/en-us/nuget/concepts/security-best-practices
+
+6. .props and .targets in a package (🐱‍👤) https://docs.microsoft.com/en-us/nuget/concepts/msbuild-props-and-targets
+
+#### Consume packages
+
+7. 
+
+#### Create packages
+
+- see best practices here as well
+
+#### References
+
+##### NuGet Server API
+
+#### Resources
+
+##### Release notes
+
+- track the vulnerabilities throughout versions, create a small history of this
