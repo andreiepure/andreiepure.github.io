@@ -215,20 +215,79 @@ There are many methods to attack a supply chain:
 
 > A software supply chain attack is in and of itself rarely the end goal, rather it is the beginning of an opportunity for an attacker to insert malware or provide a backdoor for future access.
 
-And the image.
+And the image of the full lifecycle of a vulnerability.
 
+##### Unpatched software
 
+Maybe show the image of advisories - because that does not cover dependency confusion (but only libraries with known vulnerabilities).
+
+📦 Package Consumer
+
+**NuGet feeds** 
+- When using multiple public & private NuGet source feeds, a package can be downloaded from any of the feeds.
+- knowing what specific feed(s) your packages are coming from is a best practice. 
+- [details](https://azure.microsoft.com/en-us/resources/3-ways-to-mitigate-risk-using-private-package-feeds/) - I had already summarized this in the google doc
+
+**Client trust policies**
+- explicitly trust a package author
+- when possible, do it based on signature
+
+**Lock files**
+- ensure package repeatability by storing the hash of the package
+
+**Package Source Mapping**
+
+📦🖊 Package Author
+
+**Author Package Signing**
+
+**Reproducible builds**
+- this does not have something to do with dependency confusion, though
+
+**Package ID prefix reservation**
+
+##### Summary
+
+> Even though supply chain compromises are real and growing in popularity, they are still rare
+
+- this is why they currently don't get a lot of attention
 
 6. .props and .targets in a package (🐱‍👤) https://docs.microsoft.com/en-us/nuget/concepts/msbuild-props-and-targets
 
+Build folders
+- `build`
+- `buildMultitargeting` 
+- `buildTransitive`
+
+> All 3 build folder follow the same pattern for deciding the most suitable file based on the project target framework.
+
+> Files in the root build folder, build/<package_id>.targets and build/<package_id>.props are considered suitable for all target frameworks.
+
+
+Projects consuming packages with build files
+
+> .props and .targets are not added to the project file but are instead made available through {projectName}.nuget.g.targets and {projectName}.nuget.g.props. These files are automatically generated when restore is run.
+
+> When a project targets more than one framework, the imports to these files are conditioned on the target framework name.
+
+> NuGet does not limit how you author .props and .targets as they will vary based on the need of the package author and the target projects themselves.
+
 #### Consume packages
 
-FIXME lock file
+Process first:
+- lock file
+- Package Source Mapping
+- manage package trust boundaries
 
+Process second: how nuget.configs get invoked ("Common NuGet configurations - How settings are applied") - this is to motivate the "clear" tag
+
+[props and targets](https://docs.microsoft.com/en-us/nuget/consume-packages/package-references-in-project-files):
+- .props and .targets in the `build`, `buildMultitargeting` or `buildTransitive` folders inside a nuget package
 
 #### Create packages
 
-- see best practices here as well
+- see best practices here as well; LATER: only about reserve prefix; the rest are not security related
+
 
 ##### [Transforming source code and configuration files](https://docs.microsoft.com/en-us/nuget/create-packages/source-and-config-file-transformations) 
 
@@ -244,12 +303,18 @@ XDT transforms
 - to make XDT transforms work withPackageReference, refer to [this sample](https://github.com/NuGet/Samples/tree/main/XDTransformExample)
 - You can modify config files using XDT syntax. You can also have NuGet replace tokens with project properties by including the property name within $ delimiters (case-insensitive).
 
+##### [Create analyzer](https://docs.microsoft.com/en-us/nuget/guides/analyzers-conventions)
+
+! for packages.config, the ps1 scripts get ran for install/uninstall
 
 #### Publish packages
 
 ##### Publish to a private feed
 
 Create your own NuGet.Server: https://docs.microsoft.com/en-us/nuget/hosting-packages/nuget-server
+
+**! Can use this in the demo**
+
 
 #### References
 
@@ -264,6 +329,7 @@ https://docs.microsoft.com/en-us/nuget/api/overview
 ##### Release notes
 
 - track the vulnerabilities throughout versions, create a small history of this
+  - NOT FOR THE FIRST DRAFT
 
 ### Contributor blog post
 
