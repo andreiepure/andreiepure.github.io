@@ -361,3 +361,4 @@ Short overview of the protocol. Doesn't seem to bring useful info for the talk..
 - about the attack https://www.mandiant.com/resources/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor
 - about the malware https://www.mandiant.com/resources/sunburst-additional-technical-details
 - https://www.cm-alliance.com/cybersecurity-blog/what-really-happened-in-the-solarwinds-cyber-attack
+- CrowdStrike analysis of Sunspot - it was analyzing msbuild.exe processes! The SUNBURST malware was a C# file injected in the MSBuild.exe process https://www.crowdstrike.com/blog/sunspot-malware-technical-analysis/
