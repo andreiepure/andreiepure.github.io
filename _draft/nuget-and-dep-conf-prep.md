@@ -355,3 +355,9 @@ https://docs.microsoft.com/en-us/nuget/api/overview
 https://dev.to/loicsharma/the-nuget-protocol-4m8h
 
 Short overview of the protocol. Doesn't seem to bring useful info for the talk...
+
+# More about SolarWinds
+
+- about the attack https://www.mandiant.com/resources/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor
+- about the malware https://www.mandiant.com/resources/sunburst-additional-technical-details
+- https://www.cm-alliance.com/cybersecurity-blog/what-really-happened-in-the-solarwinds-cyber-attack
