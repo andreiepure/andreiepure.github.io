@@ -362,3 +362,4 @@ Short overview of the protocol. Doesn't seem to bring useful info for the talk..
 - about the malware https://www.mandiant.com/resources/sunburst-additional-technical-details
 - https://www.cm-alliance.com/cybersecurity-blog/what-really-happened-in-the-solarwinds-cyber-attack
 - CrowdStrike analysis of Sunspot - it was analyzing msbuild.exe processes! The SUNBURST malware was a C# file injected in the MSBuild.exe process https://www.crowdstrike.com/blog/sunspot-malware-technical-analysis/
+- list of victims https://www.datacenterknowledge.com/security/list-known-solarwinds-breach-victims-grows-do-attack-vectors
