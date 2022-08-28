@@ -1,8 +1,8 @@
 ---
-title:  ".NET Day Switzerland 2022 Resources"
+title:  ".NET Day Switzerland 2022 Resources (Dependency Confusion)"
 ---
 
-You probably arrived on this page after watching [my talk about Dependency Confusion](https://dotnetday.ch/speakers/andrei-epure.html) at DotNetDay Switzerland on the 30th of August 2022.
+You probably arrived on this page after watching [my talk about Dependency Confusion](https://dotnetday.ch/speakers/andrei-epure.html) at .NET Day Switzerland on the 30th of August 2022.
 
 As a reminder, these are the three easy steps to do in order to secure you NuGet supply chain against dependency confusion attacks (links to Microsoft docs):
 
