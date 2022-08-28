@@ -29,7 +29,9 @@ About the SolarWinds breach:
 - overview, timeline: [New Findings From Our Investigation of SUNBURST](https://orangematter.solarwinds.com/2021/01/11/new-findings-from-our-investigation-of-sunburst/)
 - technical explanation of SUNSPOT, the malicious tool that was deployed into the SolarWinds build environment: [SUNSPOT: An Implant in the Build Process.](https://www.crowdstrike.com/blog/sunspot-malware-technical-analysis/)
 - technical explanation of SUNBURST, the trojan shipped inside Orion: [Highly Evasive Attacker Leverages SolarWinds Supply Chain to Compromise Multiple Global Victims With SUNBURST Backdoor](https://www.mandiant.com/resources/blog/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor)
+- [SUNBURST Additional Technical Details](https://www.mandiant.com/resources/blog/sunburst-additional-technical-details)
+- list of victims: [The List of Known SolarWinds Breach Victims Grows, as Do Attack Vectors](https://www.datacenterknowledge.com/security/list-known-solarwinds-breach-victims-grows-do-attack-vectors)
 
-Whether you enjoyed or not my talk, please fill in this feedback form (Google Forms, anonymous): https://forms.gle/t5JVPzQLUWQGy1vF9.
+Whether you enjoyed or not my talk, please fill in this [Feedback form (Google Form, anonymous)](https://forms.gle/t5JVPzQLUWQGy1vF9).
 
 Last, but not least: [we're hiring at Sonar](https://www.sonarsource.com/company/careers/)! 
