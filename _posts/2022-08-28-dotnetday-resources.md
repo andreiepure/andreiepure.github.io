@@ -32,6 +32,8 @@ About the SolarWinds breach:
 - [SUNBURST Additional Technical Details](https://www.mandiant.com/resources/blog/sunburst-additional-technical-details)
 - list of victims: [The List of Known SolarWinds Breach Victims Grows, as Do Attack Vectors](https://www.datacenterknowledge.com/security/list-known-solarwinds-breach-victims-grows-do-attack-vectors)
 
+C. Augusto Proiete demonstrated that NuGet packages can execute arbitrary code in 2019 -  [i-am-root-nuget-package](https://github.com/augustoproiete/i-am-root-nuget-package).
+
 Whether you enjoyed or not my talk, please fill in this [Feedback form (Google Form, anonymous)](https://forms.gle/t5JVPzQLUWQGy1vF9).
 
 Last, but not least: [we're hiring at Sonar](https://www.sonarsource.com/company/careers/)! 
