@@ -12,9 +12,11 @@ As a reminder, these are the three easy steps to do in order to secure you NuGet
 
 The source code for my demos [is on GitHub](https://github.com/andreiepure/DependencyConfusionDemo), feel free to use it when explaining the problem to your colleagues.
 
-More advice from Microsoft:
+More docs from Microsoft:
 - [NuGet Best practices for a secure software supply chain](https://docs.microsoft.com/en-us/nuget/concepts/security-best-practices)
-- Advice for more tech stacks (Maven, Gradle, NuGet, npm, Pip, Yarn): [3 Ways to Mitigate Risk When Using Private Package Feeds](https://azure.microsoft.com/en-us/resources/3-ways-to-mitigate-risk-using-private-package-feeds/)
+- For Maven, Gradle, NuGet, npm, Pip, Yarn: [3 Ways to Mitigate Risk When Using Private Package Feeds](https://azure.microsoft.com/en-us/resources/3-ways-to-mitigate-risk-using-private-package-feeds/)
+- [MSBuild .props and .targets in a NuGet package](https://docs.microsoft.com/en-us/nuget/concepts/msbuild-props-and-targets)
+- [MSBuild inline tasks](https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-inline-tasks?view=vs-2022)
 
 You can read about the NuGet historical design decision of having a non-deterministic package resolution behavior for hybrid configurations (fetching packages from all configured sources in parallel): [NuGet/Home#5611](
 https://github.com/NuGet/Home/issues/5611).
