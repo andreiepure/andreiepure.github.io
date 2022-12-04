@@ -1,8 +1,12 @@
-Write a target file to execute arbitrary code
+---
+title:  "Write a target file to execute arbitrary code"
+---
 
-## Vocabulary
+# The MSBuild scripting language
 
 MSBuild is the Microsoft Build Engine. What is less known is that it offers a scripting language. An MSBuild file is usually a script.
+
+## Concepts
 
 The MSBuild scripting language concepts:
 - *properties* are variables; some are predefined by MSBuild during the build process; others are environment variables; and others are customized in MSBuild projects and props files
@@ -11,6 +15,8 @@ The MSBuild scripting language concepts:
 - *targets* are groups of tasks to be executed together; they enable sections of the build process to be called from the command line by ___
   - targets can have attributes that specify the order of operations (`InitialTargets`; `DependsOnTarget`; `BeforeTarget`) - MSBuild uses this information to build a Direct Acyclic Graph of targets to execute
   - each target runs **only once** in a single build
+
+## Convention
 
 MSBuild offers an XML scripting language. By convention, MSBuild files have a limited set of extensions. However, it is only a convention - any of the below files (or a simple `.xml` file) can hold the definition of MSBuild properties, tasks and targets. That being said, by convention there are three types of files:
 - project files (`.csproj`, `.vbproj`, `.esproj` etc)
@@ -23,7 +29,7 @@ MSBuild offers an XML scripting language. By convention, MSBuild files have a li
 Tasks are normally kept in libraries (DLLs) which are referenced by other files.
 MSBuild files can import other MSBuild files. Usually *target* files reference other *target* files.
 
-## Run any code inside a target file 
+# Run any code inside a target file 
 
 Let's write a target file that opens a browser when being executed.
 
@@ -69,6 +75,6 @@ dotnet msbuild foo.target
 
 and you will see the warning in the build output an the browser window being opened.
 
-## What's next?
+# What's next?
 
 You can insert this malicious target file in a NuGet file and distribute to the entire world. I will write more about that in a future article.
