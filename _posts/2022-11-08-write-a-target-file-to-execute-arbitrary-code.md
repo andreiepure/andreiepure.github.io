@@ -9,10 +9,10 @@ MSBuild is the Microsoft Build Engine. What is less known is that it offers a sc
 ## Concepts
 
 The MSBuild scripting language concepts:
-- *properties* are variables; some are predefined by MSBuild during the build process; others are environment variables; and others are customized in MSBuild projects and props files
-- *items* are inputs in the build system, usually files - these are used to include or exclude files from the build process; MSBuild has predefined item metadata
-- *tasks* are atomic build operations, like "compile" or "copy file"; there are plenty built-in tasks, and we can define our own by extending ____; a task must be present inside a target in order to be executed
-- *targets* are groups of tasks to be executed together; they enable sections of the build process to be called from the command line by ___
+- *properties* are variables; some [are reserved](https://learn.microsoft.com/en-us/visualstudio/msbuild/common-msbuild-project-properties?view=vs-2022); some are [predefined by MSBuild](https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-reserved-and-well-known-properties?view=vs-2022) during the build process; others are environment variables; and others are customized in MSBuild projects and props files
+- *items* are [inputs in the build system](https://learn.microsoft.com/en-us/visualstudio/msbuild/common-msbuild-project-items?view=vs-2022), usually files - these are used to include or exclude files from the build process; each item has [some metadata](https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-well-known-item-metadata?view=vs-2022) attached to it
+- *tasks* are atomic build operations, like "compile" or "copy file"; there are plenty [built-in tasks](https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-task-reference?view=vs-2022), and you can define your own by extending [`Microsoft.Build.Utilities.Task`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.build.utilities.task?view=msbuild-17-netcore); a task must be present inside a target in order to be executed
+- *targets* are groups of tasks to be executed together; they enable sections of the build process to be called from the command line with the `-target:` [switch](https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-command-line-reference?view=vs-2022)
   - targets can have attributes that specify the order of operations (`InitialTargets`; `DependsOnTarget`; `BeforeTarget`) - MSBuild uses this information to build a Direct Acyclic Graph of targets to execute
   - each target runs **only once** in a single build
 
