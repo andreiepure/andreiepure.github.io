@@ -1,5 +1,3 @@
-VisugXL Belgium 2022:
-- [Resources](2022/10/26/visugxl-resources.html)
-- [anonymous feedback form](https://forms.gle/aBVGdH1CnCjCQh6K6)
+Welcome to my blog. I focus on .NET, MSBuild, NuGet and Roslyn.
 
 [About me](about.md).
