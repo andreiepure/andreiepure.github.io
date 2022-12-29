@@ -49,3 +49,9 @@ To execute it, run
 ```
 dotnet msbuild hello.txt --verbosity:quiet
 ```
+It will output
+
+> MSBuild version 17.4.0+18d5aef85 for .NET
+> C:\blog\playground\hello.txt(4,3): warning : Hello, World!
+
+Congratulations! You wrote your first MSBuild script.
