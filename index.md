@@ -1,3 +1,3 @@
-Welcome to my blog. I focus on .NET, MSBuild, NuGet and Roslyn.
+Welcome to my blog.
 
 [About me](about.md).
