@@ -1,5 +1,5 @@
 ---
-title:  "Write a target file to execute arbitrary code"
+title:  "MSBuild vocabulary"
 ---
 
 # The MSBuild scripting language
