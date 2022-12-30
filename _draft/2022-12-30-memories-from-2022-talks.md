@@ -28,7 +28,7 @@ I applied with the "dependency confusion" and "improving the performance" talks,
 
 I knew from my previous BBL experience that preparing a good talk is not easy. And this time it wasn't a 15 or 20 minutes talk as before, but a 50-minute one.
 
-I didn't have a lot of time - it was already mid-April and I had to have it ready by the end of August, and I had nothing yet, except two sheets of paper with a sketch. I had to have a plan. So I set myself some intermediate checkpoints:
+I didn't have a lot of time - it was already mid-April and I had to have it ready by the end of August, and I had nothing yet, except two sheets of paper with a sketch. I needed a plan. So I set myself some intermediate checkpoints:
 - do a BBL explaining how the attack works to a non-technical audience by the end of May
 - present the talk at two user groups before going on the big stage - forcing myself to have an almost-ready version that I could get feedback on from .NET developers who could expose my ignorance on the topic. Initially, I wanted to do one session by the end of June and one in August.
 
