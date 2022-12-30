@@ -24,7 +24,7 @@ I applied with the "dependency confusion" and "improving the performance" talks,
 
 ## Preparing
 
-I knew from my previous BBL experience that preparing a good talk is not easy. And this time it wasn't a 15-minute talk as before, but a 50-minute one.
+I knew from my previous BBL experience that preparing a good talk is not easy. And this time it wasn't a 15 or 20 minutes talk as before, but a 50-minute one.
 
 I didn't have a lot of time - it was already mid-April and I had to have it ready by the end of August, and I had nothing yet, except two sheets of paper with a sketch. I had to have a plan. So I set myself some intermediate checkpoints:
 - do a BBL explaining how the attack works to a non-technical audience by the end of May
