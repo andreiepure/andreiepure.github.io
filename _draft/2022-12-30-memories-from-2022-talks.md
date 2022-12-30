@@ -97,7 +97,7 @@ The last session I gave was at my local .NET User Group in Geneva. Like before, 
 
 # The rejections
 
-This year was my first year as a public speaker. If you aspire to become a speaker at developer conferences, bear in mind that I applied to six conferences in 2022 and only got accepted at two of them. I have a better acceptance ratio at user groups (two out of two).
+This year was my first year as a public speaker. If you aspire to become a speaker at developer conferences, bear in mind that I applied to six conferences in 2022 and only got accepted at two of them. I have a better acceptance ratio at user groups :) (two out of two), so it might be better to start with user groups before applying to developer conferences.
 
 # 2023
 
