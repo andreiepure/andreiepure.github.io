@@ -51,7 +51,7 @@ You can watch the [recording on youtube](https://youtu.be/ghKAGy-NrSI) - it was 
 
 ## Dry-runs in my company
 
-The week before D-Day (the 30th of August 2022), I did three dry runs inside the company. By this time, I improved the presentation, reduced the content and prepared a speech. 
+The week before D-Day (the 30th of August 2022), I did three dry runs inside the company - the full show, the "final" slides, the demos, the Evil Hacker change of persona in the middle of the talk. By this time, I improved the presentation, reduced the content and prepared a speech. 
 
 The first dry-run was during the .NET Guild Coffee Break (a cross-team meeting for the .NET developers in Sonar), on a Tuesday, hybrid. Most of the feedback I got was related to the content (as expected, because they were the NuGet and MSBuild subject matter experts in the company). 
 
