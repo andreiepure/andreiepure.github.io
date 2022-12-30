@@ -47,6 +47,8 @@ I got a slot on August the 10th for DotNet Iasi. I had to prepare quite a lot, a
 
 The talk was fine, although I hadn’t had time to prepare my speech properly. It took a little bit more than one hour - I preferred to have more material that I could remove from for the 50-minute presentation. I didn’t get many questions as I wished at the end. Unfortunately, there was no tricky question and no constructive feedback.
 
+You can watch the [recording on youtube](https://youtu.be/ghKAGy-NrSI) - it was an ok talk, but my slides and speech were not polished and in my opinion I did not have a very good energy and vibe throughout the talk. I really needed to change this before going on stage.
+
 ## Dry-runs in my company
 
 The week before D-Day (the 30th of August 2022), I did three dry runs inside the company. By this time, I improved the presentation, reduced the content and prepared a speech. 
