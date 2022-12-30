@@ -81,7 +81,7 @@ There were other cool stuff like the speakers dinner (I got to talk with Richard
 
 # VisugXL Belgium 2022
 
-In September I had applied to another .NET community conference at the end of October, this time in Belgium, and got accepted. I changed the title from “Dependency confusion and its cure. A NuGet story.” to “How to attack a .NET software supply chain”, because one of the feedback I got was that the title was very confusing and mysterious. I also changed the description on Sessionize and included verbatim excerpts from the .NET Day Switzerland feedbacks in the "note to the organizers" section, to "sell" myself.
+In September I had applied to another .NET community conference ([VisugXL](https://www.visug.be/Events/80)) at the end of October, this time in Belgium, and got accepted. I changed the title from “Dependency confusion and its cure. A NuGet story.” to “How to attack a .NET software supply chain”, because one of the feedback I got was that the title was very confusing and mysterious. I also changed the description on Sessionize and included verbatim excerpts from the .NET Day Switzerland feedbacks in the "note to the organizers" section, to "sell" myself.
 
 Before leaving to Belgium I did another dry run - two months had passed since my talk in Zurich, I had to rehearse my talk and the demos. This time, I did it alone, as I was confident on the quality of my presentation. Also, I had modified the slides a little, improving them and adding more content, as this time I had a 60 minutes slot. I removed some slides from the beginning which I considered not so important and I added a “use a lock file” section in the presentation.
 
