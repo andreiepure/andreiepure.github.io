@@ -1,22 +1,24 @@
 ---
-title:  "My first year as a public speaker"
+title:  "2022: my first year as a public speaker"
 ---
+
+> The mind cannot continue in one and the same condition, I mean without receiving addition to or diminution of its good qualities. For to fail to gain new ones, is to lose them, because when the desire of making progress ceases, there the danger of going back is present. (Abbot Theodore in “The Conferences of Desert Fathers” by St. John Cassian)
 
 It's the end of December, a great time for doing a retrospective of my first year as a public speaker.
 
-I wanted to speak at a conference for a long time. I had already done "Brown Bag Lunch" (BBL) presentations inside Sonar, demystifying technical topics to a mixed technical and non-technical audience (for example, Object Oriented Thinking). My talks have been appreciated and this feedback encouraged me to think about widening the audience.
+I wanted to speak at a conference for a long time. I had already done "Brown Bag Lunch" (BBL) presentations inside Sonar, demystifying technical topics to a mixed technical and non-technical audience (for example, on Object Oriented Thinking). My talks had been appreciated and this feedback encouraged me to think about widening the audience and speaking at a developer conference.
 
 # DotNetDay Switzerland 2022
 
-[.NET Day Switzerland](https://dotnetday.ch/) was the first time I spoke on a stage. It was awesome. However, I had prepared very well for it.
+[.NET Day Switzerland](https://dotnetday.ch/) was the first time I spoke on a stage. It was awesome and, thank God, I nailed it. In this blog post I will explain how I prepared for it.
 
 ## Choosing a topic
 
-After I read Alex Bîrsan's [Dependency Confusion: How I Hacked Into Apple, Microsoft, and Dozens of Other Companies](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610) article in 2021, I did a one-week investigation sprint at Sonar to make sure we were safe. Afterwards, I did a small technical presentation to the Languages Team, explaining the attack. Alex, one of our Product Managers, suggested then to do a BBL for the company. In the following months I gathered some ideas on how I could present this to a non-technical audience, but did not invest the time in making the presentation.
+After I read Alex Bîrsan's [Dependency Confusion: How I Hacked Into Apple, Microsoft, and Dozens of Other Companies](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610) article in early 2021, I did a one-week investigation sprint at Sonar to make sure we were safe. Afterwards, around June 2021, I did a small technical presentation to the Languages Team, explaining how the attack works and what were the possible defense mechanisms at that time. Alex, one of our Product Managers, suggested that I do a BBL for the entire company. In the following months I gathered some ideas on how I could present this to a non-technical audience, but did not invest a lot of time in making the presentation.
 
 ## The opportunity
 
-At the end of March 2022, I found out that the Call for Speakers of .NET Day Switzerland 2022 was still open and I could apply. Our VP of Products asked me whether the .NET Bubble wants to present something. I asked my team mates, no one really wanted to, so I wrote down three ideas. One was about "Dependency Confusion" (I already had a sketch for the talk), the second about "Improving the performance for Roslyn analyzers" (we had invested some time in this topic in the previous 18 months for our .NET analyzers) and another one about how "Symbolic Execution" works (a geeky topic, and we had in-house Control Flow Graph and Symbolic Execution Engine implementations).
+At the end of March 2022, I found out that the Call for Speakers of .NET Day Switzerland 2022 was still open. Our VP of Products asked me whether the .NET Bubble wants to present something. I asked my team mates, it did not spark a lot of interest, so I wrote down three ideas that came to my mind. One was about "Dependency Confusion" (I already had a sketch for the talk), the second about "Improving the performance for Roslyn analyzers" (we had invested some time in this topic in the previous 18 months for our .NET analyzers) and another one about how "Symbolic Execution" works (a geeky topic, and we had an in-house Control Flow Graph and Symbolic Execution Engine implementation).
 
 Unfortunately, I didn't have time to prepare the titles and the abstracts, so I sent an email to the organizers for a deadline extension, and Manuel Meyer replied that I could apply until April the 10th.
 
