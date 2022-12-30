@@ -65,7 +65,7 @@ On Sunday evening I was still changing the demos a bit. The presentation was due
 
 ## The D-Day
 
-Initially, I though I wouldn’t be nervous, why would I? I had previously spoken in front of large audiences at my company. However, I got an upset stomach the day before the talk, probably due to stress. Thank God, the problem of eating got solved - for breakfast, I only ate toast with a little bit of feta cheese, and drank some tea.
+Initially, I thought I wouldn’t be nervous, why would I? I had previously spoken in front of large audiences at my company. However, I got an upset stomach the day before the talk, probably due to stress. Thank God, the problem of eating got solved - for breakfast, I only ate toast with a little bit of feta cheese, and drank some tea.
 
 In the morning, I joined my colleagues at the Sonar booth (after my talk got accepted, Sonar decided to sponsor the conference). Then I went to the opening key note (a brilliant talk by Mr. Richard Campbell on the History of .NET - very well delivered, I must say). I stayed at the Sonar booth for an hour after, to calm my thoughts and allow my colleagues to go and watch some talks in the first batch. There wasn't much activity at the booth, so I could calm down.
 
