@@ -30,6 +30,7 @@ I knew from my previous BBL experience that preparing a good talk is not easy. A
 
 I didn't have a lot of time - it was already mid-April and I had to have it ready by the end of August, and I had nothing yet, except two sheets of paper with a sketch. I needed a plan. So I set myself some intermediate checkpoints:
 - do a BBL explaining how the attack works to a non-technical audience by the end of May
+- prepare the presentation and demo for a technical audience
 - present the talk at two user groups before going on the big stage - forcing myself to have an almost-ready version that I could get feedback on from .NET developers who could expose my ignorance on the topic. Initially, I wanted to do one session by the end of June and one in August.
 
 ## The BBL
