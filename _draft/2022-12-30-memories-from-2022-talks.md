@@ -44,41 +44,41 @@ The talk was fine, although I hadn’t had time to prepare my speech properly. I
 
 ## Dry-runs in my company
 
-The week before D-Day (the 30th of August 2022), I did three dry runs inside the company. The first one was during the .NET Guild Coffee Break (a cross-team meeting for the .NET developers in Sonar), on a Tuesday, hybrid. Then on Thursday I did one in-person only, and on Friday I did another one remote-only. I got plenty of useful feedback on the format of the presentation (slides, speech, story). My colleague Andrea pointed me to Patrick Winston’s “How to Speak” MIT lecture, which I watched over the weekend.
+The week before D-Day (the 30th of August 2022), I did three dry runs inside the company. The first one was during the .NET Guild Coffee Break (a cross-team meeting for the .NET developers in Sonar), on a Tuesday, hybrid. Then on Thursday I did one in-person only with around six people, and on Friday I did another one remote-only with four colleagues. I got plenty of useful feedback on the format of the presentation (slides, speech, story). Not that much on the content itself. And my colleague Andrea pointed me to Patrick Winston’s “How to Speak” MIT lecture, which I watched over the weekend.
 
 ## The weekend before
 
-The weekend before I initially wanted to chill. However, I went to the local library and I borrowed some books about public speaking. While I was waiting on Saturday at a barber’s shop, I was polishing my slides (greatly simplifying them and making them prettier) according to Prof. Winston’s advice. I considered some hints from the books I perused, although I must admit the “How to Speak” lecture was far superior to what I found at the local library. Even more, the books told me what (not) to eat and drink before the day, and I became stressed by this, too.
+The weekend before I initially wanted to chill. However, I went to the local library and I borrowed some books about public speaking. While I was waiting on Saturday evening at a barber’s shop, I was polishing my slides on the phone (greatly simplifying them and making them prettier) according to Prof. Winston’s advice. I considered some hints from the books I skimmed through, although I must admit the “How to Speak” lecture was far superior to what I found at the local library. Even more, the books told me what (not) to eat and drink before the day, and I became stressed by this, too.
+
+On Sunday evening I was still changing the demos a bit. The presentation was due on Tuesday morning.
 
 ## The D-Day
 
-Initially, I though I wouldn’t be nervous, why would I? I had previously spoken in front of large audiences at my company. However, I got an upset stomach the day before the talk. Thank God, the problem of eating got solved - I only ate toast with a little bit of feta cheese, and drank some tea.
+Initially, I though I wouldn’t be nervous, why would I? I had previously spoken in front of large audiences at my company. However, I got an upset stomach the day before the talk, probably due to stress. Thank God, the problem of eating got solved - for breakfast, I only ate toast with a little bit of feta cheese, and drank some tea.
 
-I joined my colleagues at the Sonar booth (after my talk got accepted, Sonar decided to sponsor the conference). Then I went to the opening key note (a brilliant talk by Mr. Richard Campbell on the History of .NET - very well delivered, I must say). 
+In the morning, I joined my colleagues at the Sonar booth (after my talk got accepted, Sonar decided to sponsor the conference). Then I went to the opening key note (a brilliant talk by Mr. Richard Campbell on the History of .NET - very well delivered, I must say). I stayed at the Sonar booth for an hour after, to calm my thoughts and allow my colleagues to go and watch some talks in the first batch. There wasn't much activity at the booth, so I could calm down.
 
-Fortunately, my talk was scheduled at 10h45, so I did not have to wait a lot. I went there 15 minutes before the talk, as instructed by the organizers. I met the .NET Day volunteers, from the local Swiss .NET community. I plugged in the laptop, verified the contrast of the console and the IDE, changed it from dark to bright at their advice. Attached the microphone, prepared the “Evil Hacker” outfit for later in the talk, and I was ready.
+Fortunately, my talk was scheduled at 10h45, in the second batch, so I did not have to wait a lot. I went there 15 minutes before the talk, as instructed by the organizers. I met the volunteers from the local Swiss .NET community. I plugged in the laptop, verified the contrast of the console and the IDE, changed it from dark to bright at their advice. Attached the microphone, prepared the “Evil Hacker” outfit for later in the talk when I would need it, and I was ready.
 
-I did not have any stage fright. On the contrary, I felt like a fish in the water. My colleague Mary told me there were 50-60 people in the cinema room, so less that a normal “Sonar” BBL audience. I had great fun, I did not have any irreparable demo effect, the audience laughed at the “funny” moments. 
+I did not have any stage fright. On the contrary, I felt like a fish in the water. My colleague Mary told me there were 50-60 people in the cinema room, less that a normal “Sonar” BBL audience. I had great fun, I did not have any irreparable demo effects, the audience laughed at the “funny” moments. I managed to deliver the talk on time, finishing a couple of minutes earlier. 
 
-Furthermore, I got great feedback from people later during the conference. The “Evil Hacker” persona was very well received. And I also got nine pieces of feedback via the feedback form in the upcoming weeks. Most of it positive.
+Furthermore, I got great feedback from people later during the conference. The “Evil Hacker” persona was very well received. And I also got nine pieces of feedback via the feedback form I put on my website. Most of it positive.
 
-Thank God, mission accomplished.
+Thank God, I accomplished my mission.
 
-There were other cool stuff like the speakers dinner and having breakfast at the hotel with renowned speakers, maybe I’ll write about that at a later date.
+There were other cool stuff like the speakers dinner (I got to talk with Richard Campbell for two hours on a variety of topics) and having breakfast at the hotel the second day with renowned speakers. Maybe I’ll write about that at a later date.
 
 # VisugXL Belgium 2022
 
-In September I had applied to another .NET community conference, this time in Belgium, and got accepted. I changed the title from “” to “”, because one of the feedback I got was that the title was very confusing and mysterious. I also changed the description on Sessionize and included verbatim excerpts from the .NET Day Switzerland feedbacks.
+In September I had applied to another .NET community conference at the end of October, this time in Belgium, and got accepted. I changed the title from “” to “”, because one of the feedback I got was that the title was very confusing and mysterious. I also changed the description on Sessionize and included verbatim excerpts from the .NET Day Switzerland feedbacks in the "note to the organizers" section, to "sell" myself.
 
-Because Sonar paid for the plane and hotel, the organizers gave us a sponsor table at the conference. I went there alone, as a one-man team - I stayed at the booth from morning ‘till I entered the conference room at 15h45. It was a great opportunity to talk with various people, both who knew our products and had various questions or remarks, as well as people who never heard of SonarQube or SonarLint before.
+Before leaving to Belgium I did another dry run - two months had passed since my talk in Zurich, I had to rehearse my talk and the demos. This time, I did it alone, as I was confident on the quality of my presentation. Also, I had modified the slides a little, improving them and adding more content, as this time I had a 60 minutes slot. I removed some slides from the beginning which I considered not so important and I added a “use a lock file” section in the presentation.
 
-Of course, before leaving to Belgium I did another dry run - two months had passed since my talk in Zurich, I had to rehearse my talk and the demos. This time, I did it alone, as I was confident on the quality of my presentation. Also, I had modified the slides a little, improving them and adding more content, as this time I had a 60 minutes slot. I removed some slides from the beginning which I considered not so important and I added a “use a lock file” section in the presentation.
+Because Sonar paid for the plane and hotel, the organizers gave us a sponsor table at the conference (VisugXL is a small one-day conference, on a tight budget). I went there alone, as a one-man team - I stayed at the booth from morning ‘till I entered the conference room at 15h45. It was a great opportunity to talk with various people, both who knew our products and had various questions or remarks, as well as people who never heard of SonarQube or SonarLint before.
 
-This time I had 26 people in the room, as opposed to the experience in Zurich, here the audience was much more interactive - they were asking questions on the go, which was quite nice. And at the end, we spent roughly 15 minutes discussing various topics. I went over the timebox, but it was the last presentation so that was ok (I planned 50 minutes of presentation and 10 minutes of Q&A, and all in all there were around 20 minutes of Q&A instead, hence the spillover). They didn’t give any feedback via the online feedback form, they gave it on the spot, instead.
+This time I had 26 people in the room, as opposed to the experience in Zurich, here the audience was much more interactive - they were asking questions on the go, which was quite nice. And at the end, we spent roughly 15 minutes discussing various topics. I went over the timebox, but it was the last presentation so that was ok (I planned 50 minutes of presentation and 10 minutes of Q&A, but all in all there were around 20-25 minutes of Q&A instead, hence the spillover). That was a great learning experience, because some of the folks in the room were quite senior and knew many topics better than me! Exposing my own ignorance and learning is one of the reasons started to speak at conferences.
 
-It was great that some of the discussions surprised me, I learned new things and I realized that some of the audience in the room knew some of the topics (namely about “lock files” usage) better than me. That’s great! Exposing my own ignorance and learning is one of the reasons I speak at conferences.
-
-At the end one of the organizers who watches my talk told me that I could also apply for Techorama. For me, this small interaction was very rewarding.
+At the end of the day, one of the organizers who watched my talk told me that I could also apply for Techorama. For me, this small interaction was very rewarding.
 
 # Geneva .NET User Group
 
