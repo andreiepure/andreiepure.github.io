@@ -38,11 +38,56 @@ I planned the BBL inside the company on the 2nd of June. It was good because I p
 
 I wanted to give a virtual talk at the [DotNet Iasi meetup](https://www.meetup.com/dotnetiasi/), and an in-person one at the [Geneva .NET User Group](https://genevadnug.ch/). Unfortunately, the Geneva organisers asked me the slides before, and I didn't have them (I was using the meetups to motivate myself to reach intermediate checkpoints), so I only got a slot on August the 10th for DotNet Iasi. In hindsight, this was a good thing, because I would not have had the time to prepare something for the end of June or beginning of July (my suggestion for the Geneva DNUG).
 
-For DotNet Iasi, I had to prepare quite a lot, and it took a couple of weekends to do it: change or improve the existing slides to fit a .NET technical audience, add new slides to explain how to defend against the attack and create demos. Moreover, I also though of adding Typosquatting to the presentation (more demos, more slides).
+For DotNet Iasi, I had to prepare quite a lot, and it took a couple of weekends to do it: change or improve the existing slides to fit a .NET technical audience, add new slides to explain how to defend against the attack and create demos for the attack, as well for the defense. Moreover, I also added Typosquatting to the presentation (which meant: more demos, more slides).
+
+The talk was fine, although I hadn’t had time to prepare my speech properly. It took a little bit more than one hour - I preferred to have more material that I could remove from for the 50-minute presentation. I didn’t get many questions as I wished at the end. Unfortunately, no tricky question. Even if I prepared a feedback form, I only got one feedback from it.
+
+## Dry-runs in my company
+
+The week before D-Day (the 30th of August 2022), I did three dry runs inside the company. The first one was during the .NET Guild Coffee Break (a cross-team meeting for the .NET developers in Sonar), on a Tuesday, hybrid. Then on Thursday I did one in-person only, and on Friday I did another one remote-only. I got plenty of useful feedback on the format of the presentation (slides, speech, story). My colleague Andrea pointed me to Patrick Winston’s “How to Speak” MIT lecture, which I watched over the weekend.
+
+## The weekend before
+
+The weekend before I initially wanted to chill. However, I went to the local library and I borrowed some books about public speaking. While I was waiting on Saturday at a barber’s shop, I was polishing my slides (greatly simplifying them and making them prettier) according to Prof. Winston’s advice. I considered some hints from the books I perused, although I must admit the “How to Speak” lecture was far superior to what I found at the local library. Even more, the books told me what (not) to eat and drink before the day, and I became stressed by this, too.
 
 ## The D-Day
 
+Initially, I though I wouldn’t be nervous, why would I? I had previously spoken in front of large audiences at my company. However, I got an upset stomach the day before the talk. Thank God, the problem of eating got solved - I only ate toast with a little bit of feta cheese, and drank some tea.
+
+I joined my colleagues at the Sonar booth (after my talk got accepted, Sonar decided to sponsor the conference). Then I went to the opening key note (a brilliant talk by Mr. Richard Campbell on the History of .NET - very well delivered, I must say). 
+
+Fortunately, my talk was scheduled at 10h45, so I did not have to wait a lot. I went there 15 minutes before the talk, as instructed by the organizers. I met the .NET Day volunteers, from the local Swiss .NET community. I plugged in the laptop, verified the contrast of the console and the IDE, changed it from dark to bright at their advice. Attached the microphone, prepared the “Evil Hacker” outfit for later in the talk, and I was ready.
+
+I did not have any stage fright. On the contrary, I felt like a fish in the water. My colleague Mary told me there were 50-60 people in the cinema room, so less that a normal “Sonar” BBL audience. I had great fun, I did not have any irreparable demo effect, the audience laughed at the “funny” moments. 
+
+Furthermore, I got great feedback from people later during the conference. The “Evil Hacker” persona was very well received. And I also got nine pieces of feedback via the feedback form in the upcoming weeks. Most of it positive.
+
+Thank God, mission accomplished.
+
+There were other cool stuff like the speakers dinner and having breakfast at the hotel with renowned speakers, maybe I’ll write about that at a later date.
+
 # VisugXL Belgium 2022
+
+In September I had applied to another .NET community conference, this time in Belgium, and got accepted. I changed the title from “” to “”, because one of the feedback I got was that the title was very confusing and mysterious. I also changed the description on Sessionize and included verbatim excerpts from the .NET Day Switzerland feedbacks.
+
+Because Sonar paid for the plane and hotel, the organizers gave us a sponsor table at the conference. I went there alone, as a one-man team - I stayed at the booth from morning ‘till I entered the conference room at 15h45. It was a great opportunity to talk with various people, both who knew our products and had various questions or remarks, as well as people who never heard of SonarQube or SonarLint before.
+
+Of course, before leaving to Belgium I did another dry run - two months had passed since my talk in Zurich, I had to rehearse my talk and the demos. This time, I did it alone, as I was confident on the quality of my presentation. Also, I had modified the slides a little, improving them and adding more content, as this time I had a 60 minutes slot. I removed some slides from the beginning which I considered not so important and I added a “use a lock file” section in the presentation.
+
+This time I had 26 people in the room, as opposed to the experience in Zurich, here the audience was much more interactive - they were asking questions on the go, which was quite nice. And at the end, we spent roughly 15 minutes discussing various topics. I went over the timebox, but it was the last presentation so that was ok (I planned 50 minutes of presentation and 10 minutes of Q&A, and all in all there were around 20 minutes of Q&A instead, hence the spillover). They didn’t give any feedback via the online feedback form, they gave it on the spot, instead.
+
+It was great that some of the discussions surprised me, I learned new things and I realized that some of the audience in the room knew some of the topics (namely about “lock files” usage) better than me. That’s great! Exposing my own ignorance and learning is one of the reasons I speak at conferences.
+
+At the end one of the organizers who watches my talk told me that I could also apply for Techorama. For me, this small interaction was very rewarding.
 
 # Geneva .NET User Group
 
+The last session I gave was at my local .NET User Group in Geneva. It was on Thursday the 10th of December. Unfortunately, there were only five people in the room, but each of them appreciated the talk, said they learned new things they can apply in their day to day work, and this is a great reward for me as a speaker. The audience was again interactive, asking questions as I was speaking. From some of the interactions I got ideas of hobby projects I could do and I started to think about my next subjects.
+
+# The rejections
+
+This year was my first year as a public speaker. If you aspire to become a speaker at developer conferences, bear in mind I had applied to N conferences this year and only got accepted at two. I don’t know why, as they didn’t give me any sort of feedback.
+
+I don’t plan to stop here, I have some ideas for other talks and I will try to get accepted at bigger developer conferences.
+
+2023, here I come :)
