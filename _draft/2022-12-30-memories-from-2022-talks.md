@@ -6,7 +6,7 @@ title:  "2022: my first year as a public speaker"
 
 It's the end of December, a great time for doing a retrospective of my first year as a public speaker.
 
-I wanted to speak at a conference for a long time. I had already done "Brown Bag Lunch" (BBL) presentations inside Sonar, demystifying technical topics to a mixed technical and non-technical audience (for example, on Object Oriented Thinking). My talks had been appreciated and this feedback encouraged me to think about widening the audience and speaking at a developer conference.
+I wanted to speak at a conference for a long time. I had already done "Brown Bag Lunch" (BBL) presentations inside Sonar, demystifying technical topics to a mixed technical and non-technical audience (for example, on Object Oriented Thinking). My talks had been appreciated and this feedback encouraged me to think about widening the audience and speaking at a developer conference. Also, I once gave a talk about C# 8 at the local .NET user group in 2019 ([recording](https://youtu.be/x-Jz7nWqZGo)), so I had the "user group" experience, too.
 
 # DotNetDay Switzerland 2022
 
