@@ -50,7 +50,7 @@ The week before D-Day (the 30th of August 2022), I did three dry runs inside the
 
 The first dry-run was during the .NET Guild Coffee Break (a cross-team meeting for the .NET developers in Sonar), on a Tuesday, hybrid. Most of the feedback I got was related to the content (as expected, because they were the NuGet and MSBuild subject matter experts in the company). 
 
-Then on Thursday I did an in-person dry-run with around six people and on Friday I did another one remote-only with four colleagues from various teams. I got plenty of useful feedback on the format of the presentation (slides, speech, story). Not that much on the content itself. And my colleague Andrea pointed me to Patrick Winston’s “How to Speak” MIT lecture, which I watched over the weekend.
+Then on Thursday I did an in-person dry-run with around six people and on Friday I did another one remote-only with four colleagues from various teams. I got plenty of useful feedback on the format of the presentation (slides, speech, story). Not that much on the content itself. And my colleague Andrea pointed me to [Patrick Winston’s “How to Speak”](https://youtu.be/Unzc731iCUY) MIT lecture, which I watched over the weekend.
 
 ## The weekend before
 
