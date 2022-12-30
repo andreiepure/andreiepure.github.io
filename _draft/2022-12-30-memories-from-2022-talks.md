@@ -73,9 +73,9 @@ Fortunately, my talk was scheduled at 10h45, in the second batch, so I did not h
 
 I did not have any stage fright. On the contrary, I felt like a fish in the water. My colleague Mary told me there were 50-60 people in the cinema room, less that a normal “Sonar” BBL audience. I had great fun, I did not have any irreparable demo effects, the audience laughed at the “funny” moments. I managed to deliver the talk on time, finishing a couple of minutes earlier. 
 
-Furthermore, I got great feedback from people later during the conference. The “Evil Hacker” persona was very well received. And I also got nine pieces of feedback via the feedback form I put on my website. Most of it positive.
+Furthermore, I got great feedback from people later during the conference. The “Evil Hacker” persona was very well received. And I also got nine pieces of feedback via the feedback form I put on my website. Most of it positive. 
 
-Thank God, I accomplished my mission.
+Thank God, I accomplished my mission. The session was not recorded, but the slides I used are public on [speakerdeck](https://speakerdeck.com/dotnetday/dot-net-day-22-dependency-confusion-and-its-cure-a-nuget-story-by-andrei-epure).
 
 There were other cool stuff like the speakers dinner (I got to talk with Richard Campbell for two hours on a variety of topics) and having breakfast at the hotel the second day with renowned speakers. Maybe I’ll write about that at a later date.
 
