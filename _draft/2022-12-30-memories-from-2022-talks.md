@@ -93,7 +93,7 @@ At the end of the day, one of the organizers who watched my talk told me that I 
 
 # Geneva .NET User Group
 
-The last session I gave was at my local .NET User Group in Geneva. It was on Thursday the 10th of December. Unfortunately, there were only five people in the room, but each of them appreciated the talk, said they learned new things they can apply in their day to day work, and this is a great reward for me as a speaker. The audience was again interactive, asking questions as I was speaking. From some of the interactions I got ideas of hobby projects I could do and I started to think about my next subjects.
+The last session I gave was at my local .NET User Group in Geneva. Like before, I did a dry run before, to make sure the demos still work and that I have a nice flow of ideas. It was on Thursday the 10th of December. Unfortunately, there were only five people in the room, but each of them appreciated the talk, said they learned new things they can apply in their day to day work, and this is a great reward for me as a speaker. The audience was again interactive, asking questions as I was speaking. From some of the interactions I got ideas of hobby projects I could do and I started to think about my next subjects.
 
 # The rejections
 
