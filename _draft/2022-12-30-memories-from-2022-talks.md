@@ -12,7 +12,7 @@ I wanted to speak at a conference for a long time. I had already done "Brown Bag
 
 ## Choosing a topic
 
-After I read Alex Bîrsan's [Dependency Confusion: How I Hacked Into Apple, Microsoft, and Dozens of Other Companies](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610) article, I did a one-week investigation sprint at Sonar to make sure we were safe. Afterwards, I did a small technical presentation to the Languages Team, explaining the attack. Alex, one of our Product Managers, suggested then to do a BBL for the company. In the following months I gathered some ideas on how I could present this to a non-technical audience, but did not invest the time in making the presentation.
+After I read Alex Bîrsan's [Dependency Confusion: How I Hacked Into Apple, Microsoft, and Dozens of Other Companies](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610) article in 2021, I did a one-week investigation sprint at Sonar to make sure we were safe. Afterwards, I did a small technical presentation to the Languages Team, explaining the attack. Alex, one of our Product Managers, suggested then to do a BBL for the company. In the following months I gathered some ideas on how I could present this to a non-technical audience, but did not invest the time in making the presentation.
 
 ## The opportunity
 
