@@ -34,7 +34,7 @@ I didn't have a lot of time - it was already mid-April and I had to have it read
 
 I planned the BBL inside the company on the 2nd of June. It was good because I prepared the slides to explain in a visual manner what a package manager does and how the dependency confusion attack works. For this BBL, I created the Mr. Evil Hacker persona to explain the attacks.
 
-I gave the talk from my desk, with almost 200 persons online, some of which gave feedback on the hallways and via Slack, giving kudos for how well I helped non-technical people understand the concepts. Some of my technical colleagues gave kudos for raising awareness. Everyone loved "Mr. Evil Hacker", they even screenshot me and created a slack emoji out of it.
+I gave the talk from my desk, with almost 200 persons online, some of which gave feedback on the hallways and via Slack, giving kudos for how well I helped non-technical people understand the concepts. Some of my technical colleagues gave kudos for raising awareness. Everyone loved "Mr. Evil Hacker", they even screenshot me and created a slack :hacker: emoji out of it.
 
 ## .NET Iasi virtual talk
 
