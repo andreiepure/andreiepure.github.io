@@ -32,7 +32,9 @@ I didn't have a lot of time - it was already mid-April and I had to have it read
 
 ## The BBL
 
-I planned the BBL inside the company on the 2nd of June. It was good because I prepared the slides to explain in a visual manner was a package manager does and how the dependency confusion attack works. At this point, I created the Mr. Evil Hacker persona, which was very appreciated by my colleagues. I was watched by roughly 200 persons, some of which gave feedback on the hallways and via Slack, giving kudos for how well I helped non-technical people understand the concepts. Also, some of my technical colleagues gave kudos for raising awareness and with one we've discussed on how defending against it might work in the Java world.
+I planned the BBL inside the company on the 2nd of June. It was good because I prepared the slides to explain in a visual manner what a package manager does and how the dependency confusion attack works. For this BBL, I created the Mr. Evil Hacker persona to explain the attacks, which was very appreciated by my colleagues.
+
+I gave the talk from my desk, with almost 200 persons online, some of which gave feedback on the hallways and via Slack, giving kudos for how well I helped non-technical people understand the concepts. Also, some of my technical colleagues gave kudos for raising awareness and with one we've discussed on how defending against it might work in the Java world.
 
 ## .NET Iasi virtual talk
 
