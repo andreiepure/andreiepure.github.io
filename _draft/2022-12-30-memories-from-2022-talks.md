@@ -38,15 +38,19 @@ I gave the talk from my desk, with almost 200 persons online, some of which gave
 
 ## .NET Iasi virtual talk
 
-I wanted to give a virtual talk at the [DotNet Iasi meetup](https://www.meetup.com/dotnetiasi/), and an in-person one at the [Geneva .NET User Group](https://genevadnug.ch/). Unfortunately, the Geneva organisers asked me the slides before, and I didn't have them (I was using the meetups to motivate myself to reach intermediate checkpoints), so I only got a slot on August the 10th for DotNet Iasi. In hindsight, this was a good thing, because I would not have had the time to prepare something for the end of June or beginning of July (my suggestion for the Geneva DNUG).
+I wanted to give a virtual talk at the [DotNet Iasi meetup](https://www.meetup.com/dotnetiasi/), and an in-person one at the [Geneva .NET User Group](https://genevadnug.ch/). Unfortunately, the Geneva organisers asked me for the slides before, and I didn't have them (I was using the meetups to motivate myself to reach intermediate checkpoints). 
 
-For DotNet Iasi, I had to prepare quite a lot, and it took a couple of weekends to do it: change or improve the existing slides to fit a .NET technical audience, add new slides to explain how to defend against the attack and create demos for the attack, as well for the defense. Moreover, I also added Typosquatting to the presentation (which meant: more demos, more slides).
+I got a slot on August the 10th for DotNet Iasi. I had to prepare quite a lot, and it took a couple of weekends to do it: change or improve the existing slides to fit a .NET technical audience, add new slides to explain how to defend against the attack and create demos for the attack, as well for the defense. Moreover, I also added Typosquatting to the presentation (which meant: more demos, more slides).
 
-The talk was fine, although I hadn’t had time to prepare my speech properly. It took a little bit more than one hour - I preferred to have more material that I could remove from for the 50-minute presentation. I didn’t get many questions as I wished at the end. Unfortunately, no tricky question. Even if I prepared a feedback form, I only got one feedback from it.
+The talk was fine, although I hadn’t had time to prepare my speech properly. It took a little bit more than one hour - I preferred to have more material that I could remove from for the 50-minute presentation. I didn’t get many questions as I wished at the end. Unfortunately, there was no tricky question and no constructive feedback.
 
 ## Dry-runs in my company
 
-The week before D-Day (the 30th of August 2022), I did three dry runs inside the company. The first one was during the .NET Guild Coffee Break (a cross-team meeting for the .NET developers in Sonar), on a Tuesday, hybrid. Then on Thursday I did one in-person only with around six people, and on Friday I did another one remote-only with four colleagues. I got plenty of useful feedback on the format of the presentation (slides, speech, story). Not that much on the content itself. And my colleague Andrea pointed me to Patrick Winston’s “How to Speak” MIT lecture, which I watched over the weekend.
+The week before D-Day (the 30th of August 2022), I did three dry runs inside the company. By this time, I improved the presentation, reduced the content and prepared a speech. 
+
+The first dry-run was during the .NET Guild Coffee Break (a cross-team meeting for the .NET developers in Sonar), on a Tuesday, hybrid. Most of the feedback I got was related to the content (as expected, because they were the NuGet and MSBuild subject matter experts in the company). 
+
+Then on Thursday I did an in-person dry-run with around six people and on Friday I did another one remote-only with four colleagues from various teams. I got plenty of useful feedback on the format of the presentation (slides, speech, story). Not that much on the content itself. And my colleague Andrea pointed me to Patrick Winston’s “How to Speak” MIT lecture, which I watched over the weekend.
 
 ## The weekend before
 
