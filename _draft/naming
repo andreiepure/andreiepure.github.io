@@ -2,5 +2,8 @@ Irina Scurt posted a [tweet about variable naming in C#](https://twitter.com/iri
 
 So, let's analyze a pull request that I reviewed and I suggested better names. I can explain what I'm doing, maybe I can formalize a bit my process.
 
+- are you using the type (Set, List etc)? code smell
+- are you using similar names before and after processing a data structure? (why not put the result in the name?)
+
 
 
