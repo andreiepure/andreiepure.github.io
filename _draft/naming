@@ -1,0 +1,6 @@
+Irina Scurt posted a [tweet about variable naming in C#](https://twitter.com/irina_scurtu/status/1645736205735059458) and I realized that I got multiple times feedback that I'm good at naming.
+
+So, let's analyze a pull request that I reviewed and I suggested better names. I can explain what I'm doing, maybe I can formalize a bit my process.
+
+
+
