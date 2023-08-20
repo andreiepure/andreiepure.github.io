@@ -53,7 +53,7 @@ However, we are not done. If you run the analysis now, you may see in the logs o
 
 The good news is that now the Sonar analysis is aware of these files. The bad news is that the Scanner for .NET considers, by default, the base directory of the analysis the directory where the solution file is present. And all indexed files need to be inside the base directory.
 
-To fix this problem, you need to explicitly define the base directory during the BEGIN step, by defining the `sonar.projectBaseDir` analysis property.
+To fix this problem, you need to explicitly define the base directory during the BEGIN step, by defining the `sonar.projectBaseDir` analysis property (for example, to `${{ github.workspace }}`).
 
 ```
 .\.sonar\scanner\dotnet-sonarscanner begin /k:"<NAME>" /o:"<ORG>" /d:sonar.token="\${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.projectBaseDir="\${{ github.workspace }}"
