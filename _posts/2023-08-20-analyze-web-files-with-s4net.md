@@ -19,13 +19,13 @@ And you want to analyze this .NET project with Sonar (SonarQube or SonarCloud). 
 ```
       - name: Build and analyze
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: \${{ secrets.SONAR_TOKEN }}
         shell: powershell
         run: |
-          .\.sonar\scanner\dotnet-sonarscanner begin /k:"<NAME>" /o:"<ORG>" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
+          .\.sonar\scanner\dotnet-sonarscanner begin /k:"<NAME>" /o:"<ORG>" /d:sonar.token="\${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
           dotnet build .\src\NAME.sln
-         .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
+         .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="\${{ secrets.SONAR_TOKEN }}"
 ```
 
 This is because you need to run the build (with MSBuild behind the scenes) in order to trigger the Sonar Roslyn analysis for C# or VB .NET. Unfortunately, all your frontend code is in a different folder and, even if it were in the same folder with the solution file `NAME.sln`, the frontend files would not be referenced (in this example) in any MSBuild project file.
@@ -56,7 +56,7 @@ The good news is that now the Sonar analysis is aware of these files. The bad ne
 To fix this problem, you need to explicitly define the base directory during the BEGIN step, by defining the `sonar.projectBaseDir` analysis property.
 
 ```
-.\.sonar\scanner\dotnet-sonarscanner begin /k:"<NAME>" /o:"<ORG>" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.projectBaseDir="${{ github.workspace }}"
+.\.sonar\scanner\dotnet-sonarscanner begin /k:"<NAME>" /o:"<ORG>" /d:sonar.token="\${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.projectBaseDir="\${{ github.workspace }}"
 ```
 
 Bingo. You should see in the logs of the END step something like:
