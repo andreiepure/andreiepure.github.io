@@ -56,7 +56,7 @@ The good news is that now the Sonar analysis is aware of these files. The bad ne
 To fix this problem, you need to explicitly define the base directory during the BEGIN step, by defining the `sonar.projectBaseDir` analysis property.
 
 ```
-.\.sonar\scanner\dotnet-sonarscanner begin /k:"<NAME>" /o:"<ORG>" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.projectBaseDir="${{ GITHUB_WORKSPACE }}"
+.\.sonar\scanner\dotnet-sonarscanner begin /k:"<NAME>" /o:"<ORG>" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.projectBaseDir="${{ github.workspace }}"
 ```
 
 Bingo. You should see in the logs of the END step something like:
