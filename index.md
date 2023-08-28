@@ -1,8 +1,7 @@
 Welcome to my blog.
 
-Have you recently listened to my talk at Techorama 2023 in Belgium?
-- Please fill in [this feedback form](https://forms.gle/aTEtV31JrAdPwQGKA).
-- See [this blog post](https://andreiepure.ro/2022/08/28/dotnetday-resources.html) with useful resources.
-- The [GitHub repository](https://github.com/andreiepure/DependencyConfusionDemo).
+Have you recently listened to my talk at .NET Day Switzerland 2023 in Zurich?
+- Please fill in [this feedback form](https://forms.gle/xf158hgJgA37oxkZA)
+- You can download [the slides](https://github.com/andreiepure/andreiepure.github.io/tree/master/assets)
 
 [About me](about.md).
