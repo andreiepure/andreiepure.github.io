@@ -46,6 +46,8 @@ There is a small inexpensive trick to include all the frontend files in the Sona
 
 Make sure that you include the newly created `frontend.csproj` in the `NAME.sln` MSBuild solution. This trick will tell MSBuild - _"Hey, please take these web files as Resources"_. The Scanner for .NET includes special target files which, during the `dotnet build` process, examine the build environment and include all items picked up by MSBuild from `ItemGroup`. Afterwards, the Scanner for .NET tells SonarCloud / SonarQube later on that those files need to be analyzed (in other words, the scanner "indexes" the files for later analysis during the END step).
 
+If you don't want to use `Resource` which may include the file in the project output, you can use `None` ([docs](https://learn.microsoft.com/en-us/visualstudio/msbuild/common-msbuild-project-items?view=vs-2022#none)).
+
 However, we are not done. If you run the analysis now, you may see in the logs of the END step entries like the following:
 
 
@@ -65,3 +67,8 @@ Bingo. You should see in the logs of the END step something like:
 INFO: 1071 source files to be analyzed
 
 At the time of this writing, there is a limitation: the file paths will be a bit ugly in the Sonar UI, because they will be relative to the root folder which contains both the `frontend` folder with web code and the `src` folder with .NET code. But hey, you now have them all in one place.
+
+| Version Date        | Change
+| ------------- |:-------------:|
+| 2023-08-20      | Initial version |
+| 2023-10-04      | Mention "None"  |
