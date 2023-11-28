@@ -1,8 +1,9 @@
 Welcome to my blog.
 
-Have you recently listened to my talk at Techorama Netherlands 2023 in Utrecht?
-- Please fill in [this feedback form](https://forms.gle/vQANizfBGLHMa6QG9)
-- You can download [the slides](https://github.com/andreiepure/DependencyConfusionDemo/tree/main/slides)
-- Links to MS docs on NuGet best practices and to resources about the SolarWinds breach in this [blog post](https://andreiepure.ro/2022/08/28/dotnetday-resources.html)
+Have you recently listened to my talk at .NET Developer Conference 2023 in Köln (DDC'23)?
+- Please fill in [this anonymous feedback form](https://forms.gle/dx86MaUfGVQLg3Lu6)
+- You can download [the slides](https://docs.google.com/presentation/d/1sHMxMXixKT-uKxnfLQ9XxSBSQJMtQW3jQD6dR1dwE0E/edit?usp=sharing)
+
+If you want to message me, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/epureandrei/).
 
 [About me](about.md).
