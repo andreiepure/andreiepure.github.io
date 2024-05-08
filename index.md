@@ -1,8 +1,8 @@
 Welcome to my blog.
 
-Have you recently listened to my talk at .NET Developer Conference 2023 in Köln (DDC'23)?
+Have you recently listened to my talk at Techorama Belgium in Antwerp on the 8th of May 2024?
 - Please fill in [this anonymous feedback form](https://forms.gle/uc5TEfBCVfpcvUiRA)
-- You can download [the slides](https://docs.google.com/presentation/d/1sHMxMXixKT-uKxnfLQ9XxSBSQJMtQW3jQD6dR1dwE0E/edit?usp=sharing)
+- You can download [the slides](https://github.com/andreiepure/CleanAsYouCode/tree/main/slides)
 
 If you want to message me, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/epureandrei/).
 
