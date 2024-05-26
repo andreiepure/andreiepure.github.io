@@ -1,9 +1,11 @@
 title: Andrei Epure
-description: Andrei Epure's web log.
+description: >- # this means to ignore newlines until "url:"
+  Welcome to my blog.
 url: andreiepure.ro
 
 # social links
 twitter_username: andrei_cs_pub
+github_username: andreiepure
 
 # the below is for blog posts
 show_excerpts: false # set to false to remove excerpts on the homepage
