@@ -15,7 +15,7 @@ I sometimes speak at developer conferences ([Sessionize profile](https://session
 Other professional links:
 - [LinkedIn](https://www.linkedin.com/in/epureandrei/)
 - [Sonar Github](https://github.com/andrei-epure-sonarsource)
-- [Sonar community](https://community.sonarsource.com/u/Andrei_Epure/summary).
+- [Sonar community](https://community.sonarsource.com/u/Andrei_Epure/summary)
 
 In addition to being a programmer, I am also a:
 - husband
