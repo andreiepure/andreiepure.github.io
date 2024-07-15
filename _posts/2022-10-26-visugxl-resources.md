@@ -6,10 +6,10 @@ You've probably arrived on this page after watching my talk _"How to attack a .N
 
 As a reminder, these are the easy steps to do in order to secure you NuGet supply chain against typosquatting and dependency confusion supply chain attacks:
 
-1. Use `<clear />` to avoid inheriting the system configuration (because of [how settings are applied in NuGet](https://learn.microsoft.com/en-us/nuget/consume-packages/configuring-nuget-behavior#how-settings-are-applied)).
+1. Use `<clear />` to avoid inheriting the system configuration (because of [how settings are applied in NuGet](https://learn.microsoft.com/en-us/nuget/consume-packages/configuring-nuget-behavior#how-settings-are-applied)). By using `<clear />`, you ensure the NuGet resolution of your builds are fully deterministic and repeatable.
 2. Use [Package Source Mapping](https://docs.microsoft.com/en-us/nuget/consume-packages/package-source-mapping) if you have a hybrid (private and public) configuration, to be protected against dependency confusion attacks. You can use the [NuGet.PackageSourceMapper](https://www.nuget.org/packages/NuGet.PackageSourceMapper#readme-body-tab) tool to help you generate the configuration for your repository. Alternatively, instead of using multiple package sources, configure only a single package source and control which packages you mirror from the public source in your private source.
-3. Use `<trusted signers>`: see [Manage package trust boundaries](https://docs.microsoft.com/en-us/nuget/consume-packages/installing-signed-packages).
-4. Reserve prefixes for both your public and private packages on nuget.org: [Package ID prefix reservation](https://docs.microsoft.com/en-us/nuget/nuget-org/id-prefix-reservation).
+3. Use `<trusted signers>`: see [Manage package trust boundaries](https://docs.microsoft.com/en-us/nuget/consume-packages/installing-signed-packages). You can use trusted signers for both signed packages (when you will provide the certificate hash), and for unsigned packages (by simply providing the name of the account that published the package you trust). This will help defend your project against unwanted typosquatting attacks.
+4. Reserve prefixes for both your public and private packages on nuget.org: [Package ID prefix reservation](https://docs.microsoft.com/en-us/nuget/nuget-org/id-prefix-reservation). It is important to reserve the prefixes for your private packages so that malicious users won't publish public packages with those names, to attempt dependency confusion attacks. Reserving prefixes for public packages also reduces the surface attack of typosquatting attacks.
 
 These are my top recommendations. You can find more on Microsoft's [NuGet Security Best Practices](https://learn.microsoft.com/en-us/nuget/concepts/security-best-practices).
 
@@ -30,4 +30,4 @@ Last, but not least: [we're hiring at Sonar](https://www.sonarsource.com/company
 | Version Date        | Change
 | ------------- |:-------------:|
 | 2022-10-26      | Initial version |
-| 2024-07-15      | Update title, mention other talks, remove 2022 feedback form. Add reference to the NuGet.PackageSourceMapper tool. Mention <clear>. |
+| 2024-07-15      | Update title, mention other talks, remove 2022 feedback form. Add reference to the NuGet.PackageSourceMapper tool. Mention <clear>. Add more details. |
