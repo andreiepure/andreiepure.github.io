@@ -2,7 +2,7 @@
 title:  "How to secure your NuGet supply chain"
 ---
 
-You've probably arrived on this page after watching my talk _"How to attack a .NET software supply chain"_ at the [VisugXL](https://www.visug.be/Events/80) conference (October 2022 in Hasselt, Belgium), also presented under the name "How your .NET software supply chain is open to attack : and how to fix it" at Techorama Belgium (May 2023), Techorama Netherlands (October 2023) and WeAreDevelopers Berlin (July 2024). The source code for my demos [is on GitHub](https://github.com/andreiepure/DependencyConfusionDemo), feel free to use it when explaining these problems to your colleagues. In the "slides" folder you can find the Techorama and WeAreDeveloper slides.
+You've probably arrived on this page after watching my talk _"How to attack a .NET software supply chain"_ at the [VisugXL](https://www.visug.be/Events/80) conference (October 2022 in Hasselt, Belgium), also presented under the name "How your .NET software supply chain is open to attack : and how to fix it" at Techorama Belgium (May 2023), Techorama Netherlands (October 2023) and WeAreDevelopers Berlin (July 2024). The source code for my demos [is on GitHub](https://github.com/andreiepure/DependencyConfusionDemo), feel free to use it when explaining these problems to your colleagues. In the ["slides" folder](https://github.com/andreiepure/DependencyConfusionDemo/tree/main/slides) you can find the Techorama and WeAreDevelopers slides.
 
 As a reminder, these are the easy steps to do in order to secure you NuGet supply chain against typosquatting and dependency confusion supply chain attacks:
 
