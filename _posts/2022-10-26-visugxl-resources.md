@@ -30,4 +30,4 @@ Last, but not least: [we're hiring at Sonar](https://www.sonarsource.com/company
 | Version Date        | Change
 | ------------- |:-------------:|
 | 2022-10-26      | Initial version |
-| 2024-07-15      | Update title, mention other talks, remove 2022 feedback form. Add reference to the NuGet.PackageSourceMapper tool. Mention <clear>. Add more details. Mention using fixed versions. Move link to github at the beginning of the article. |
+| 2024-07-15      | Update title, mention other talks, remove 2022 feedback form. Add reference to the NuGet.PackageSourceMapper tool. Mention `<clear />`. Add more details. Mention using fixed versions. Move link to github at the beginning of the article. |
