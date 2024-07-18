@@ -15,7 +15,9 @@ These are my top recommendations. You can find more on Microsoft's [NuGet Securi
 
 In addition, to have the overview of all your direct and transitive dependencies and be aware of changes in your dependency graph [use a NuGet lock file](https://devblogs.microsoft.com/nuget/enable-repeatable-package-restores-using-a-lock-file/).
 
-Moreover, a general good practice is to use fixed versions for your dependencies, to limit the surface of a dependency confusion attack.
+Moreover, a general good practice is to use fixed (pinned) versions for your dependencies, to limit the surface of a dependency confusion attack.
+
+Last but not least, if you sign the packages you publish (both public and private ones), you enable your consumers to use `<trusted signers>` in the best way possible, by also verifying the signature of the owner (not only the signature of the repository).
 
 Some real life NuGet configurations:
 - [sonar .NET analyzers](https://github.com/SonarSource/sonar-dotnet/blob/8.47.0.55603/analyzers/NuGet.Config) (and check also one of the [lock files](https://github.com/SonarSource/sonar-dotnet/blob/8.47.0.55603/analyzers/src/SonarAnalyzer.CSharp/packages.lock.json))
