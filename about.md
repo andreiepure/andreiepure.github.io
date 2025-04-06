@@ -6,7 +6,9 @@ permalink: /about/
 
 I am a seasoned software engineer and engineering manager specializing in developer tooling.
 
-I currently work as the Engineering Manager of the .NET Squad in the Analysis Team at [Sonar](https://www.sonarsource.com/) - we write the open-source Roslyn static code analyzers that power SonarQube, SonarCloud and SonarLint (and you can get them for free [as NuGet](https://www.nuget.org/packages/SonarAnalyzer.CSharp)).
+I currently work as an engineering manager in the Code Orchestration Team at [Sonar](https://www.sonarsource.com/).
+
+Before that, I worked as a developer and later engineering manager of the .NET Squad in the Analysis Team at [Sonar](https://www.sonarsource.com/) - we write the open-source Roslyn static code analyzers that power SonarQube {Server, Cloud and IDE Extension} (and you can get them for free [as NuGet](https://www.nuget.org/packages/SonarAnalyzer.CSharp)).
 
 Previously, I wrote software at Microsoft Ireland, empowering customers to buy and manage their Office 365 subscriptions. I also worked for Almetis and Bitdefender.
 
