@@ -11,7 +11,7 @@ I'm an Engineering Manager at [Sonar](https://www.sonarsource.com/), where I lea
 
 ## How I got here
 
-I joined Sonar as a software engineer on the Languages Team. In my first year, I worked on a variety of analyzers for Java, PHP, Swift, Apex, C# and VB .NET. After one year, I formally took over the technical leadership of the .NET Roslyn analyzers—continuing hands-on development while guiding technical decisions.
+I joined Sonar as a software engineer on the Languages Team. In my first year, I worked on a variety of analyzers for Java, PHP, Swift, Apex, C# and VB .NET. After one year, I formally took over the technical leadership of the .NET Roslyn analyzers - continuing hands-on development while guiding technical decisions.
 
 This pull toward organizational work eventually led to a team council member role (when we had a flat, team-based organization in 2020). For three years, I operated with part-time engineering management responsibilities while still coding, gradually shifting focus as the Languages Team scaled from 30 to 70+ engineers. In 2024, we were leading 70+ software developers and AppSec engineers organized in autonomous squads.
 
