@@ -17,7 +17,7 @@ This pull toward organizational work eventually led to a team council member rol
 
 During this period, I also built and led the .NET Squad, growing it from one engineer to over ten, with four promotions along the way. That work was equally about scaling processes and people as it was about shipping analyzers.
 
-When the company introduced a formal management track in 2023, I transitioned to full-time EM. In early 2025, I formed the SDLC Data squad, pivoting from language analyzers to full-stack AWS work—the Jira integration for SonarQube. Since 2026, I've been leading the Integrations Squad, where we ship the DevOps platform connectors that make SonarQube usable at enterprise scale.
+When the company introduced a formal management track in 2023, I transitioned to full-time EM. In early 2025, I formed the SDLC Data squad, pivoting from language analyzers to full-stack AWS work : the Jira integration for SonarQube. Since 2026, I've been leading the Integrations Squad, where we ship the DevOps platform connectors that make SonarQube usable at enterprise scale.
 
 ## How I work
 
