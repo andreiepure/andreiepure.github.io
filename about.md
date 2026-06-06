@@ -21,11 +21,11 @@ When the company introduced a formal management track in 2023, I transitioned to
 
 ## How I work
 
-I try to maintain a strong technical voice. I'm not an EM who manages from a distance: I read the code, I talk to customers, and I form views on the right technical direction. I try to give teams genuine clarity in ambiguous cross-functional environments, rather than forwarding ambiguity downward.
+I have a strong technical voice. I'm not an EM who manages from a distance: I read the code, I talk to customers, and I form views on the right technical direction. I aim to bring clarity in ambiguous cross-functional, ever-changing environments.
 
-I care about observability, production investigation, and business telemetry. When something goes wrong, I want us to know quickly and understand what happened. When something goes right, I want us to know that too.
+I care about observability, production investigation, and business telemetry. When something goes wrong, I want us to know quickly and understand what happened. I expect every engineer in the team to have a learning mindset.
 
-I've navigated both flat organisations and more hierarchical ones. I believe in giving engineers real ownership and then being genuinely available when things get complicated.
+I've navigated both flat organisations and more hierarchical ones. I believe in giving engineers trust, ownership and opportunities to grow. And I am there to support when things get complicated.
 
 ## Earlier
 
