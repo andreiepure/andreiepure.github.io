@@ -29,7 +29,12 @@ I've navigated both flat organisations and more hierarchical ones. I believe in 
 
 ## Earlier
 
-Before Sonar, I wrote software at Microsoft Ireland on the Office 365 commerce platform. Earlier: Bitdefender and Almetis.
+Before Sonar, I wrote software at Microsoft Ireland on the Office 365 commerce platform.
+Main achievements:
+- designed & implemented a system for identifying and fixing issues in the Office subscription licenses database
+- designed & implemented telemetry and data analysis for the office.com/try web experience: data collection, processing and visualization
+
+Earlier: Bitdefender and Almetis.
 
 I studied at the [Politehnica University of Bucharest](https://upb.ro/en/) and the ["Vasile Alecsandri" College in Galați](https://cnva.eu/).
 
