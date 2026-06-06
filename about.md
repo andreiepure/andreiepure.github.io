@@ -21,7 +21,7 @@ When the company introduced a formal management track in 2023, I transitioned to
 
 ## How I work
 
-I have a strong technical voice. I'm not an EM who manages from a distance: I read the code, I talk to customers, and I form views on the right technical direction. I aim to bring clarity in ambiguous cross-functional, ever-changing environments.
+I have a strong technical voice. I like to read the code and understand how our systems work. I also care about how our customers are using the product. I aim to bring clarity in ambiguous cross-functional, ever-changing environments.
 
 I care about observability, production investigation, and business telemetry. When something goes wrong, I want us to know quickly and understand what happened. I expect every engineer in the team to have a learning mindset.
 
