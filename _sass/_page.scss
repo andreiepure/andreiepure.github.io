@@ -1,0 +1,170 @@
+// Generic page
+.page-content {
+  h1 {
+    font-size: 1.75rem;
+    margin-top: 0;
+  }
+
+  .page-intro {
+    font-size: 1.05rem;
+    color: $muted;
+    margin-bottom: 2.5rem;
+    border-bottom: 1px solid $border;
+    padding-bottom: 1.5rem;
+  }
+}
+
+// Impact items
+.impact-item {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid $border;
+
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+  }
+
+  .impact-role {
+    font-size: 0.825rem;
+    color: $muted;
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+  }
+
+  p {
+    color: $muted;
+    margin-bottom: 0;
+  }
+}
+
+// Talks
+.talk-featured {
+  background: #eff6ff;
+  border-left: 3px solid $accent;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2.5rem;
+  border-radius: 0 4px 4px 0;
+
+  h2 {
+    font-size: 1.05rem;
+    margin-top: 0;
+    margin-bottom: 0.3rem;
+  }
+
+  .talk-meta {
+    font-size: 0.875rem;
+    color: $muted;
+    margin-bottom: 0.75rem;
+  }
+
+  .talk-links {
+    font-size: 0.875rem;
+  }
+}
+
+.talks-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  margin-top: 2rem;
+
+  thead th {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: $muted;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 2px solid $border;
+    text-align: left;
+  }
+
+  td {
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid $border;
+    vertical-align: top;
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+
+  .talk-date {
+    white-space: nowrap;
+    color: $muted;
+  }
+}
+
+// Contact page
+.contact-content {
+  h1 { margin-top: 0; }
+
+  .contact-intro {
+    font-size: 1.05rem;
+    color: $muted;
+    margin-bottom: 2rem;
+  }
+
+  .contact-link-group {
+    margin-bottom: 2rem;
+
+    h2 {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: $muted;
+      margin-top: 0;
+      margin-bottom: 0.75rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        margin-bottom: 0.4rem;
+        font-size: 0.95rem;
+      }
+    }
+  }
+}
+
+// Dark mode
+@media (prefers-color-scheme: dark) {
+  .page-content .page-intro {
+    color: $dark-muted;
+    border-color: $dark-border;
+  }
+
+  .impact-item {
+    border-color: $dark-border;
+    .impact-role { color: $dark-muted; }
+    p { color: $dark-muted; }
+  }
+
+  .talk-featured {
+    background: rgba($accent, 0.1);
+    .talk-meta { color: $dark-muted; }
+  }
+
+  .talks-table {
+    thead th { color: $dark-muted; border-color: $dark-border; }
+    td { border-color: $dark-border; }
+    .talk-date { color: $dark-muted; }
+  }
+
+  .contact-content {
+    .contact-intro { color: $dark-muted; }
+    .contact-link-group h2 { color: $dark-muted; }
+  }
+}

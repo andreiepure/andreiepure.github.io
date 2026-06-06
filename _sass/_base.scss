@@ -1,0 +1,156 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $font-size;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: $font-family;
+  line-height: $line-height;
+  color: $text;
+  background-color: $bg;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.015em;
+}
+
+h1 { font-size: 1.75rem; }
+h2 { font-size: 1.25rem; }
+h3 { font-size: 1rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+a {
+  color: $accent;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+ul, ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+code {
+  font-family: $font-mono;
+  font-size: 0.875em;
+  background: $surface;
+  padding: 0.15em 0.35em;
+  border-radius: 3px;
+  border: 1px solid $border;
+}
+
+pre {
+  background: $surface;
+  border: 1px solid $border;
+  border-radius: 4px;
+  padding: 1rem;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+
+  code {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 0.85em;
+  }
+}
+
+blockquote {
+  margin: 0 0 1.25rem;
+  padding: 0.75rem 1.25rem;
+  border-left: 3px solid $accent;
+  color: $muted;
+
+  p:last-child { margin-bottom: 0; }
+}
+
+hr {
+  border: none;
+  border-top: 1px solid $border;
+  margin: 2.5rem 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+time {
+  color: $muted;
+  font-size: 0.875rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+th, td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid $border;
+  text-align: left;
+}
+
+th {
+  font-weight: 600;
+}
+
+// Dark mode
+@media (prefers-color-scheme: dark) {
+  body {
+    color: $dark-text;
+    background-color: $dark-bg;
+  }
+
+  code {
+    background: $dark-surface;
+    border-color: $dark-border;
+  }
+
+  pre {
+    background: $dark-surface;
+    border-color: $dark-border;
+  }
+
+  blockquote {
+    color: $dark-muted;
+  }
+
+  hr {
+    border-color: $dark-border;
+  }
+
+  th, td {
+    border-color: $dark-border;
+  }
+}

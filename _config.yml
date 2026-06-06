@@ -1,17 +1,22 @@
 title: Andrei Epure
-description: >- # this means to ignore newlines until "url:"
-  Welcome to my blog.
-url: andreiepure.ro
+description: "Engineering Manager at Sonar. I help product and engineering teams deliver reliable systems."
+url: "https://andreiepure.ro"
 
 # social links
 twitter_username: andrei_cs_pub
 github_username: andreiepure
+linkedin_username: epureandrei
 
-# the below is for blog posts
-show_excerpts: false # set to false to remove excerpts on the homepage
+# navigation — controls header nav order
+header_pages:
+  - about.md
+  - impact.md
+  - speaking.md
+  - writing.md
+  - contact.md
 
 theme: minima
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-seo-tag
