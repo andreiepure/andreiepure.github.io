@@ -7,7 +7,7 @@ description: "Engineering Manager at Sonar, leading the Integrations Squad. Brid
 
 <h1>About</h1>
 
-I'm an Engineering Manager at [Sonar](https://www.sonarsource.com/), where I lead the Integrations Squad: the team responsible for connecting SonarQube Cloud to the tools developers already use: GitHub, GitLab, Azure DevOps, Jira, and more.
+I'm an Engineering Manager at [Sonar](https://www.sonarsource.com/), where I lead the Integrations Squad: the team responsible for connecting SonarQube Cloud to the tools developers already use: GitHub, GitLab, Azure DevOps, BitBucket Cloud, Jira, and more.
 
 ## How I got here
 
