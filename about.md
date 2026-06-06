@@ -34,7 +34,7 @@ Main achievements:
 - designed & implemented a system for identifying and fixing issues in the Office subscription licenses database
 - designed & implemented telemetry and data analysis for the office.com/try web experience: data collection, processing and visualization
 
-Earlier: Bitdefender and Almetis.
+I also worked for Bitdefender and Almetis.
 
 I studied at the [Politehnica University of Bucharest](https://upb.ro/en/) and the ["Vasile Alecsandri" College in Galați](https://cnva.eu/).
 
