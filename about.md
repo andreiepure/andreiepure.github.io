@@ -7,19 +7,21 @@ description: "Engineering Manager at Sonar, leading the Integrations Squad. Brid
 
 <h1>About</h1>
 
-I'm an Engineering Manager at [Sonar](https://www.sonarsource.com/), where I lead the Integrations Squad — the team responsible for connecting SonarQube Cloud to the tools developers already use: GitHub, GitLab, Azure DevOps, Jira, and more.
+I'm an Engineering Manager at [Sonar](https://www.sonarsource.com/), where I lead the Integrations Squad: the team responsible for connecting SonarQube Cloud to the tools developers already use: GitHub, GitLab, Azure DevOps, Jira, and more.
 
 ## How I got here
 
-I joined Sonar as a software engineer on the .NET analysis team, writing Roslyn static analyzers. Over time I became an informal anchor for cross-team coordination and scope discussions, which led to a council member role and eventually a full-time EM position.
+I joined Sonar as a software engineer on the Languages Team. In my first year, I worked on a variety of analyzers for Java, PHP, Swift, Apex, C# and VB .NET. After one year, I formally took over the technical leadership of the .NET Roslyn analyzers—continuing hands-on development while guiding technical decisions.
 
-I built and led the .NET Squad for four years, growing it from one engineer to over ten, with four promotions along the way. That work was as much about technical direction — we shipped AWS-backed services and shifted the team's capability from static analysis into full-stack delivery — as it was about people.
+This pull toward organizational work eventually led to a team council member role (when we had a flat, team-based organization in 2020). For three years, I operated with part-time engineering management responsibilities while still coding, gradually shifting focus as the Languages Team scaled from 30 to 70+ engineers. In 2024, we were leading 70+ software developers and AppSec engineers organized in autonomous squads.
 
-Since 2025 I've been leading the Integrations Squad, which sits at the intersection of product, engineering, and customer-facing work. We ship the connectors that make SonarQube Cloud usable at enterprise scale.
+During this period, I also built and led the .NET Squad, growing it from one engineer to over ten, with four promotions along the way. That work was equally about scaling processes and people as it was about shipping analyzers.
+
+When the company introduced a formal management track in 2023, I transitioned to full-time EM. In early 2025, I formed the SDLC Data squad, pivoting from language analyzers to full-stack AWS work—the Jira integration for SonarQube. Since 2026, I've been leading the Integrations Squad, where we ship the DevOps platform connectors that make SonarQube usable at enterprise scale.
 
 ## How I work
 
-I try to maintain a strong technical voice. I'm not an EM who manages from a distance — I read the code, I talk to customers, and I form views on the right technical direction. I try to give teams genuine clarity in ambiguous cross-functional environments, rather than forwarding ambiguity downward.
+I try to maintain a strong technical voice. I'm not an EM who manages from a distance: I read the code, I talk to customers, and I form views on the right technical direction. I try to give teams genuine clarity in ambiguous cross-functional environments, rather than forwarding ambiguity downward.
 
 I care about observability, production investigation, and business telemetry. When something goes wrong, I want us to know quickly and understand what happened. When something goes right, I want us to know that too.
 

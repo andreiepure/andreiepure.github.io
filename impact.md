@@ -2,7 +2,7 @@
 layout: page
 title: Impact
 permalink: /impact/
-description: "Selected work from Andrei Epure — Engineering Manager at Sonar. From product launches to team growth."
+description: "Selected work from Andrei Epure: Engineering Manager at Sonar. From product launches to team growth."
 ---
 
 <h1>Selected Work</h1>

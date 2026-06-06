@@ -12,7 +12,7 @@ permalink: /contact/
     <h2>Professional</h2>
     <ul>
       <li><a href="https://www.linkedin.com/in/epureandrei/" rel="noopener">LinkedIn</a></li>
-      <li><a href="https://sessionize.com/andrei-epure/" rel="noopener">Sessionize</a> — conference speaking profile</li>
+      <li><a href="https://sessionize.com/andrei-epure/" rel="noopener">Sessionize</a>: conference speaking profile</li>
     </ul>
   </div>
 
@@ -25,10 +25,4 @@ permalink: /contact/
     </ul>
   </div>
 
-  <div class="contact-link-group">
-    <h2>Talks</h2>
-    <ul>
-      <li><a href="https://forms.gle/RaaUah2V4noefAoU9" rel="noopener">Speaker feedback form</a> — if you attended a recent talk</li>
-    </ul>
-  </div>
 </div>

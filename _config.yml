@@ -7,7 +7,7 @@ twitter_username: andrei_cs_pub
 github_username: andreiepure
 linkedin_username: epureandrei
 
-# navigation — controls header nav order
+# navigation: controls header nav order
 header_pages:
   - about.md
   - impact.md

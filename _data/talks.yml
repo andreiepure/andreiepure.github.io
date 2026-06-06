@@ -1,4 +1,12 @@
 - title: "How your .NET software supply chain is open to attack: and how to fix it"
+  event: "Bucharest A.D.C.E.S. Meetup (virtual)"
+  location: "Bucharest, Romania"
+  date: "2025-02"
+  url: "https://andreiepure.ro/2022/10/26/visugxl-resources.html"
+  recording_url: ""
+  featured: false
+
+- title: "How your .NET software supply chain is open to attack: and how to fix it"
   event: "WeAreDevelopers World Congress"
   location: "Berlin, Germany"
   date: "2024-07"
@@ -6,46 +14,44 @@
   recording_url: "https://www.wearedevelopers.com/en/videos/938/how-your-net-software-supply-chain-is-open-to-attack-and-how-to-fix-it"
   featured: true
 
-- title: "How your .NET software supply chain is open to attack"
+- title: "Clean as you Code: use Sonar and Roslyn analyzers to focus on the code you modify"
+  event: "Techorama Belgium"
+  location: "Antwerpen, Belgium"
+  date: "2024-05"
+  url: ""
+  recording_url: ""
+  featured: false
+
+- title: "How your .NET software supply chain is open to attack: and how to fix it"
+  event: ".NET Developer Conference"
+  location: "Köln, Germany"
+  date: "2023-11"
+  url: ""
+  recording_url: ""
+  featured: false
+
+- title: "How your .NET software supply chain is open to attack: and how to fix it"
   event: "Techorama Netherlands"
-  location: "Netherlands"
+  location: "Utrecht, The Netherlands"
   date: "2023-10"
   url: ""
+  recording_url: ""
   featured: false
 
-- title: "How your .NET software supply chain is open to attack"
-  event: "Techorama Belgium"
-  location: "Belgium"
-  date: "2023-05"
-  url: ""
-  featured: false
-
-- title: "How to secure your NuGet supply chain"
-  event: "Bucharest A.D.C.E.S. Meetup"
-  location: "Bucharest, Romania"
-  date: "2025-02"
-  url: "https://andreiepure.ro/2022/10/26/visugxl-resources.html"
-  featured: false
-
-- title: "How to attack a .NET software supply chain"
-  event: "VisugXL Belgium"
-  location: "Hasselt, Belgium"
-  date: "2022-10"
-  url: "https://andreiepure.ro/2022/10/26/visugxl-resources.html"
-  featured: false
-
-- title: "Dependency confusion and its cure. A NuGet story."
+- title: "Clean as you Code: use Sonar and Roslyn analyzers to focus on the code you modify"
   event: ".NET Day Switzerland"
   location: "Zürich, Switzerland"
-  date: "2022-08"
-  url: "https://andreiepure.ro/2022/08/28/dotnetday-resources.html"
+  date: "2023-08"
+  url: ""
+  recording_url: ""
   featured: false
 
-- title: "Dependency confusion and its cure. A NuGet story."
-  event: ".NET Iași (virtual)"
-  location: "Romania"
-  date: "2022-08"
-  url: "https://youtu.be/ghKAGy-NrSI"
+- title: "How your .NET software supply chain is open to attack: and how to fix it"
+  event: "Techorama Belgium"
+  location: "Antwerpen, Belgium"
+  date: "2023-05"
+  url: ""
+  recording_url: ""
   featured: false
 
 - title: "Dependency confusion and its cure. A NuGet story."
@@ -53,4 +59,37 @@
   location: "Geneva, Switzerland"
   date: "2022-12"
   url: ""
+  recording_url: ""
+  featured: false
+
+- title: "How to attack a .NET software supply chain"
+  event: "VisugXL Belgium"
+  location: "Hasselt, Belgium"
+  date: "2022-10"
+  url: "https://andreiepure.ro/2022/10/26/visugxl-resources.html"
+  recording_url: ""
+  featured: false
+
+- title: "Dependency confusion and its cure. A NuGet story."
+  event: ".NET Day Switzerland"
+  location: "Zürich, Switzerland"
+  date: "2022-08"
+  url: "https://andreiepure.ro/2022/08/28/dotnetday-resources.html"
+  recording_url: ""
+  featured: false
+
+- title: "Dependency confusion and its cure. A NuGet story."
+  event: ".NET Iași (virtual)"
+  location: "Romania"
+  date: "2022-08"
+  url: "https://youtu.be/ghKAGy-NrSI"
+  recording_url: ""
+  featured: false
+
+- title: "What's new in C# 8"
+  event: "Geneva .NET User Group"
+  location: "Geneva, Switzerland"
+  date: "2019-10"
+  url: ""
+  recording_url: ""
   featured: false

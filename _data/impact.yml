@@ -10,6 +10,6 @@
   role: "Engineering Manager, SDLC Data Squad (2025)"
   description: "Built the audit logging capability required by enterprise compliance teams, enabling SonarQube Cloud to serve regulated industries."
 
-- title: ".NET Squad — building a team and shipping analyzer improvements"
+- title: ".NET Squad: building a team and shipping analyzer improvements"
   role: "Engineering Manager / Senior Developer, .NET Squad (2019–2024)"
   description: "Grew the squad from one developer to 10+ engineers, including a 5-to-10 expansion over six months, and promoted four engineers. Technical outcomes: expanded Scanner for .NET to analyze all languages beyond C# and VB.NET, increasing scanned lines of code by ~20% for .NET projects; launched AutoScan for .NET on SonarQube Cloud for zero-config scanning; migrated from an in-house CFG implementation to Roslyn's native CFG API, improving analyzer precision and reducing maintenance burden."

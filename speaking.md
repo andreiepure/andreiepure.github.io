@@ -31,19 +31,15 @@ description: "Andrei Epure's conference talks on .NET software supply chain secu
       <th>Date</th>
       <th>Event</th>
       <th>Talk</th>
-      <th>Resources</th>
     </tr>
   </thead>
   <tbody>
-    {% for talk in site.data.talks %}
+    {% assign sorted_talks = site.data.talks | sort: "date" | reverse %}
+    {% for talk in sorted_talks %}
     <tr>
       <td class="talk-date">{{ talk.date }}</td>
       <td>{{ talk.event }}, {{ talk.location }}</td>
       <td>{{ talk.title }}</td>
-      <td>
-        {% if talk.recording_url != "" and talk.recording_url %}<a href="{{ talk.recording_url }}" rel="noopener">Recording</a>{% endif %}
-        {% if talk.url != "" and talk.url %}{% if talk.recording_url != "" and talk.recording_url %} · {% endif %}<a href="{{ talk.url }}" rel="noopener">Slides</a>{% endif %}
-      </td>
     </tr>
     {% endfor %}
   </tbody>
