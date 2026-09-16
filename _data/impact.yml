@@ -1,15 +1,34 @@
+- title: "GitHub Enterprise Cloud (Data Residency) and GitHub Enterprise Server integrations"
+  company: "Sonar"
+  role: "Engineering Manager, DevOps Platforms Experience Squad (2026)"
+  description: "Delivered new SonarQube Cloud Enterprise integrations with GitHub Enterprise Cloud with Data Residency (ghe.com) and GitHub Enterprise Server, the squad's most impactful outcomes of the year, unlocking SonarQube Cloud Enterprise for customers on these platforms."
+
+- title: "BitBucket Cloud integration rewrite on Atlassian Forge"
+  company: "Sonar"
+  role: "Engineering Manager, DevOps Platforms Experience Squad (2026)"
+  description: "Delivered the rewrite of the entire BitBucket Cloud integration on top of Atlassian's new Forge application framework, one of the squad's most complex undertakings of the year."
+
 - title: "GitHub automatic import for SonarQube Cloud"
-  role: "Engineering Manager, Integrations Squad (2026)"
-  description: "Led delivery of automatic GitHub repository import, eliminating manual project setup and reducing time-to-first-analysis for new SonarQube Cloud customers."
+  company: "Sonar"
+  role: "Engineering Manager, DevOps Platforms Experience Squad (2026)"
+  description: "Delivered automatic GitHub repository import, eliminating manual project setup and reducing time-to-first-analysis for new SonarQube Cloud customers."
 
 - title: "Jira integration for SonarQube Cloud and Server"
+  company: "Sonar"
   role: "Engineering Manager, SDLC Data Squad (2025)"
   description: "Delivered Jira issue creation directly from SonarQube findings, closing the loop between code quality and project tracking workflows."
 
 - title: "Audit Logs Service for SonarQube Cloud Enterprise"
+  company: "Sonar"
   role: "Engineering Manager, SDLC Data Squad (2025)"
   description: "Built the audit logging capability required by enterprise compliance teams, enabling SonarQube Cloud to serve regulated industries."
 
 - title: ".NET Squad: building a team and shipping analyzer improvements"
+  company: "Sonar"
   role: "Engineering Manager / Senior Developer, .NET Squad (2019–2024)"
   description: "Grew the squad from one developer to 10+ engineers, including a 5-to-10 expansion over six months, and promoted four engineers. Technical outcomes: expanded Scanner for .NET to analyze all languages beyond C# and VB.NET, increasing scanned lines of code by ~20% for .NET projects; launched AutoScan for .NET on SonarQube Cloud for zero-config scanning; migrated from an in-house CFG implementation to Roslyn's native CFG API, improving analyzer precision and reducing maintenance burden."
+
+- title: "Office 365 commerce platform"
+  company: "Microsoft"
+  role: "Software Engineer, Microsoft Ireland (2013–2016)"
+  description: "Designed and implemented a system for reconciling billing and licensing information across distributed systems. Designed and implemented telemetry and data analysis for the office.com/try web experience: data collection, processing, and visualization."

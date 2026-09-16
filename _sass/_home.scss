@@ -37,34 +37,41 @@
 
 .btn-primary {
   display: inline-block;
-  background: $accent;
-  color: #fff;
+  background: rgba($cta, 0.16);
+  color: $cta;
   padding: 0.55rem 1.1rem;
+  border: 1px solid rgba($cta, 0.35);
   border-radius: 5px;
   font-size: 0.875rem;
   font-weight: 500;
-  transition: background 0.15s;
+  transition: background 0.15s, border-color 0.15s;
 
   &:hover {
-    background: $accent-hover;
+    background: rgba($cta, 0.28);
+    border-color: rgba($cta, 0.5);
     text-decoration: none;
-    color: #fff;
+    color: $cta;
   }
 }
 
 .btn-secondary {
   display: inline-block;
-  color: $accent;
-  padding: 0.55rem 1.1rem;
-  border: 1px solid $accent;
-  border-radius: 5px;
+  color: $cta;
+  background: rgba($cta, 0.16);
+  padding: 0.55rem 1.25rem;
+  border: 1.5px solid rgba($cta, 0.35);
+  border-radius: 999px;
   font-size: 0.875rem;
   font-weight: 500;
-  transition: all 0.15s;
+  transition: transform 0.15s, box-shadow 0.15s, background 0.15s, color 0.15s;
 
   &:hover {
-    background: rgba($accent, 0.05);
+    background: rgba($cta, 0.28);
+    border-color: rgba($cta, 0.5);
+    color: $cta;
     text-decoration: none;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba($cta, 0.25);
   }
 }
 

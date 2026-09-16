@@ -4,12 +4,12 @@ title: Home
 ---
 
 <section class="hero">
-  <p class="hero__label">Engineering Manager</p>
+  <p class="hero__label">Senior Staff Software Engineer</p>
   <h1 class="hero__name">Andrei Epure</h1>
-  <p class="hero__tagline">I help product engineering teams deliver reliable systems, with a strong technical voice and customer empathy.</p>
+  <p class="hero__tagline">I'm a Senior Staff Software Engineer at <a href="https://www.sonarsource.com/">Sonar</a>. I'm a technical leader with experience leading both as an individual contributor and as an engineering manager.</p>
   <div class="hero__cta">
-    <a class="btn-primary" href="{{ '/impact/' | relative_url }}">Selected work</a>
-    <a class="btn-secondary" href="{{ '/about/' | relative_url }}">About me</a>
+    <a class="btn-secondary" href="{{ '/about/' | relative_url }}">👋 About me</a>
+    <a class="btn-primary" href="{{ '/impact/' | relative_url }}">💼 Selected work</a>
   </div>
 </section>
 
@@ -46,7 +46,7 @@ title: Home
   </section>
 
   <section>
-    <p class="section-label">Writing</p>
+    <p class="section-label">Blog</p>
     <ul class="home-column-list">
       {% for post in site.posts limit:3 %}
       <li>
@@ -58,12 +58,6 @@ title: Home
     <a class="home-more-link" href="{{ '/writing/' | relative_url }}">All posts &rarr;</a>
   </section>
 </div>
-
-<section class="home-about">
-  <p class="section-label">About</p>
-  <p>Engineering Manager at <a href="https://www.sonarsource.com/">Sonar</a> in Switzerland, currently leading the Integrations Squad. I've spent the last several years bridging product, engineering, and customer-facing work: most recently on the connectors that make SonarQube Cloud usable at enterprise scale.</p>
-  <a class="home-more-link" href="{{ '/about/' | relative_url }}">More about me &rarr;</a>
-</section>
 
 <section class="home-contact">
   <p class="section-label">Contact</p>

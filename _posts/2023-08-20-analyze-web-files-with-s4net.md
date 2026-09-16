@@ -2,6 +2,8 @@
 title:  "How to analyze JS/TS, HTML and CSS files with the Sonar Scanner for .NET"
 ---
 
+> **Update:** this post is out of date. The Scanner for .NET now automatically imports these frontend files, no dummy CSPROJ trick required. See the [8.0.0 release notes](https://github.com/SonarSource/sonar-scanner-msbuild/releases/tag/8.0.0.97025).
+
 Imagine you have a .NET web project, where the backend is written in .NET and the frontend in JS/TS with HTML and CSS, for historical reasons (because now we'd all use [Blazor](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor) for the frontend, right?).
 
 Let's say the layout of your project is something like:
@@ -72,3 +74,4 @@ At the time of this writing, there is a limitation: the file paths will be a bit
 | ------------- |:-------------:|
 | 2023-08-20      | Initial version |
 | 2023-10-04      | Mention "None"  |
+| 2026-09-16      | Note that this is out of date: the Scanner for .NET now automatically imports these files, see [8.0.0 release notes](https://github.com/SonarSource/sonar-scanner-msbuild/releases/tag/8.0.0.97025) |

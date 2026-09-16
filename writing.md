@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Writing
+title: Blog
 permalink: /writing/
 description: "Technical posts, notes, and essays by Andrei Epure: engineering manager and conference speaker."
 ---

@@ -103,6 +103,82 @@
   }
 }
 
+// Career timeline
+.career-timeline {
+  position: relative;
+  margin: 2rem 0 3rem;
+  padding-left: 1.75rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 6px;
+    bottom: 6px;
+    width: 2px;
+    background: $border;
+  }
+}
+
+.career-timeline__item {
+  position: relative;
+  padding-bottom: 2rem;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+
+.career-timeline__marker {
+  position: absolute;
+  left: -1.75rem;
+  top: 4px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: $accent;
+  border: 2px solid $bg;
+  box-shadow: 0 0 0 2px $accent;
+}
+
+.career-timeline__item--current .career-timeline__marker {
+  background: $bg;
+}
+
+.career-timeline__period {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: $muted;
+  margin: 0 0 0.2rem;
+}
+
+.career-timeline__role {
+  font-size: 1.05rem;
+  margin: 0 0 0.35rem;
+}
+
+.career-timeline__role .career-timeline__tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: $accent;
+  background: rgba($accent, 0.1);
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+.career-timeline__desc {
+  color: $muted;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
 // Contact page
 .contact-content {
   h1 { margin-top: 0; }
@@ -161,6 +237,23 @@
     thead th { color: $dark-muted; border-color: $dark-border; }
     td { border-color: $dark-border; }
     .talk-date { color: $dark-muted; }
+  }
+
+  .career-timeline {
+    &::before { background: $dark-border; }
+  }
+
+  .career-timeline__marker {
+    border-color: $dark-bg;
+  }
+
+  .career-timeline__item--current .career-timeline__marker {
+    background: $dark-bg;
+  }
+
+  .career-timeline__period,
+  .career-timeline__desc {
+    color: $dark-muted;
   }
 
   .contact-content {
